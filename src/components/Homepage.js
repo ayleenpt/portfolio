@@ -6,8 +6,8 @@ function Homepage() {
   return (
     <div className="homepage">
       <Background />
-      <div className="text">hello, my name is</div>
-      <Name />
+      <div className="intro">hello, my name is</div>
+      <Name className="title"/>
     </div>
   );
 }

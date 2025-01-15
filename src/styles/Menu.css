@@ -37,7 +37,7 @@
 }
 
 .menu-button.active .menu-line.top {
-  transform: rotate(45deg) translate(0px, -3px);
+  transform: rotate(45deg) translateY(-6px);
 }
 
 .menu-button.active .menu-line.middle {
@@ -45,5 +45,5 @@
 }
 
 .menu-button.active .menu-line.bottom {
-  transform: rotate(-45deg) translate(-3px, 5px);
+  transform: rotate(-45deg) translateY(6px);
 }

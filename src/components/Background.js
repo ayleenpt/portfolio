@@ -3,8 +3,7 @@ import '../styles/Background.css';
 
 function Background() {
   return (
-    <div className="background">
-      <div className="background__image"></div>
+    <div className="page">
     </div>
   );
 }

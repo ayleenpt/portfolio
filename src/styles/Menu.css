@@ -5,15 +5,45 @@
   background: none;
   border: none;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 50px;
+  height: 50px;
 }
 
 .menu-line {
   width: 40px;
   height: 4px;
-  background: white;
-  margin: 5px;
+  background-color: rgb(188, 144, 204);
   border-radius: 5px;
-  border: none;
-  background-color: rgb(208, 141, 232);
   box-shadow: 1px 1px 4px rgba(28, 0, 32, 0.7);
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.menu-line.top {
+  transform-origin: top left;
+}
+
+.menu-line.middle {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.menu-line.bottom {
+  transform-origin: bottom left;
+}
+
+.menu-button.active .menu-line.top {
+  transform: rotate(45deg) translate(0px, -3px);
+}
+
+.menu-button.active .menu-line.middle {
+  opacity: 0;
+}
+
+.menu-button.active .menu-line.bottom {
+  transform: rotate(-45deg) translate(-3px, 5px);
 }

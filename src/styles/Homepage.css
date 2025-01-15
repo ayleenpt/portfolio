@@ -1,9 +1,16 @@
 .homepage {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .text {
-  z-index: 2;
-  font-size: 4em;
-  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  color: rgb(235, 181, 255);
+  position: absolute;
+  margin-bottom: 300px;
+  text-shadow: 1px 1px 3px rgb(28, 0, 32, 0.7);
 }

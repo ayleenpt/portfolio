@@ -17,6 +17,7 @@
   height: 100vh;
   background: #00012a;
   overflow: hidden;
+  z-index: -1;
 
   svg {
     position: absolute;

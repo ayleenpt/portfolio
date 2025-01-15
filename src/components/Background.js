@@ -5,6 +5,7 @@ import Glass from './Glass';
 const Background = () => {
   return (
     <div className="background">
+      <Glass />
       <svg>
         <filter id="goo">
           <feGaussianBlur in="SourceGraphic" stdDeviation="30" result="blur" />

@@ -37,8 +37,8 @@
 }
 
 .letter img {
-  width: 100px;
-  height: auto;
+  width: auto;
+  height: 200px;
 }
 
 @keyframes float {

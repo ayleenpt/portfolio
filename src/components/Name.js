@@ -9,22 +9,22 @@ import N from '../assets/N.png';
 function Name() {
   return (
     <div className="name">
-      <div className="letter">
+      <div className="letter one">
         <img src={A} alt="A" />
       </div>
-      <div className="letter">
+      <div className="letter two">
         <img src={Y} alt="Y" />
       </div>
-      <div className="letter">
+      <div className="letter three">
         <img src={L} alt="L" />
       </div>
-      <div className="letter">
+      <div className="letter one">
         <img src={E} alt="E" />
       </div>
-      <div className="letter">
+      <div className="letter three">
         <img src={E} alt="E" />
       </div>
-      <div className="letter">
+      <div className="letter two">
         <img src={N} alt="N" />
       </div>
     </div>

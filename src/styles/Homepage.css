@@ -1,0 +1,9 @@
+.homepage {
+  position: relative;
+}
+
+.text {
+  z-index: 2;
+  font-size: 4em;
+  color: white;
+}

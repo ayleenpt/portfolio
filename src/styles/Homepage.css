@@ -16,10 +16,3 @@
   text-shadow: 1px 1px 4px rgba(28, 0, 32, 0.7);
   text-align: center;
 }
-
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}

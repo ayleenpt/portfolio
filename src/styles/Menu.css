@@ -1,0 +1,19 @@
+.menu-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-line {
+  width: 40px;
+  height: 4px;
+  background: white;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(208, 141, 232);
+  box-shadow: 1px 1px 4px rgba(28, 0, 32, 0.7);
+}

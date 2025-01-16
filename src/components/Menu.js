@@ -12,7 +12,9 @@ function Menu() {
   };
 
   const navigateTo = (path) => {
-    window.location.href = path;
+    if (isActive) {
+      window.location.href = path;
+    }
   };
 
   const renderMenuItems = () => {

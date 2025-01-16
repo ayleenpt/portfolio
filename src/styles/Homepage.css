@@ -16,7 +16,16 @@
   text-align: center;
 }
 
-.pronunciation {
-  font-size: 1.5em;
-  color: rgba(164, 110, 183, 0.7);
+@media (prefers-color-scheme: dark) {
+  .pronunciation {
+    font-size: 1.5em;
+    color: rgba(164, 110, 183, 0.7);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .pronunciation {
+    font-size: 1.5em;
+    color: rgba(93, 55, 107, 0.7);
+  }
 }

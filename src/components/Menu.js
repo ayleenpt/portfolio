@@ -63,9 +63,9 @@ function Menu() {
 
   return (
     <button className={`menu-button ${isActive ? 'active' : ''}`} onClick={onClick}>
-      <div className="menu-line top" />
+      <div className="menu-line higher" />
       <div className="menu-line middle" />
-      <div className="menu-line bottom" />
+      <div className="menu-line lower" />
       {renderMenuItems()}
     </button>
   );

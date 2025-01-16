@@ -75,11 +75,10 @@
 }
 
 .label {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', sans-serif;
   font-size: 0;
   font-weight: bold;
   color: rgb(239, 195, 255);
-  text-shadow: 1px 1px 4px rgba(28, 0, 32, 0.7);
   text-align: center;
   transition: font-size 0.4s ease;
 }
@@ -96,7 +95,7 @@
 }
 
 .menu-button.active .label {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .menu-button.active .right {

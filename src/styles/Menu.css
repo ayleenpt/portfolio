@@ -100,10 +100,10 @@
   font-size: 1.5em;
 }
 
-.menu-button.active .about {
+.menu-button.active .right {
   transform: translateX(-100px);
 }
 
-.menu-button.active .projects {
+.menu-button.active .top {
   transform: translateY(100px);
 }

@@ -8,10 +8,15 @@
   width: 100vw;
 }
 
-.intro {
+.text {
   font-family: 'Arial', sans-serif;
   font-size: 2em;
   color: rgb(235, 181, 255);
-  margin-bottom: 20px;
+  margin: 20px;
   text-align: center;
+}
+
+.pronunciation {
+  font-size: 1.5em;
+  color: rgba(164, 110, 183, 0.7);
 }

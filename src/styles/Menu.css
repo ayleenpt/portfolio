@@ -17,7 +17,6 @@
 .menu-line {
   width: 40px;
   height: 4px;
-  background-color: rgb(188, 144, 204);
   border-radius: 5px;
   transition: transform 0.4s ease, opacity 0.4s ease;
 }
@@ -130,4 +129,16 @@
   75% {
     transform: translate(-3px, 103px);
   }
+}
+
+@media (prefers-color-scheme: dark) {
+  .menu-line {
+    background-color: rgb(188, 144, 204);
+  }  
+}
+
+@media (prefers-color-scheme: light) {
+  .menu-line {
+    background-color: rgb(121, 66, 141);
+  } 
 }

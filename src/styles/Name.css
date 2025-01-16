@@ -2,12 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
 }
 
 .letter {
   position: relative;
-  margin: 0 10px;
+  margin: 0 min(10px, calc(90vw / 90));
+  height: min(200px, calc(90vw / 4.5));
+  width: auto;
 }
 
 .one {
@@ -47,8 +48,8 @@
 }
 
 .letter img {
+  height: 100%;
   width: auto;
-  height: 200px;
 }
 
 @keyframes one {

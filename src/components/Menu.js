@@ -10,11 +10,11 @@ function Menu() {
   };
 
   const aboutAction = () => {
-    console.log("clicked about");
+    window.location.href = "/#/about";
   };
 
   const projectsAction = () => {
-    console.log("clicked projects");
+    window.location.href = "/#/projects";
   }
 
   return (

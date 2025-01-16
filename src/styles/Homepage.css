@@ -11,21 +11,23 @@
 .text {
   font-family: 'Arial', sans-serif;
   font-size: 2em;
-  color: rgb(235, 181, 255);
   margin: 20px;
   text-align: center;
 }
 
+.pronunciation {
+  font-size: 1.5em;
+  color: rgba(164, 110, 183, 0.7);
+}
+
 @media (prefers-color-scheme: dark) {
-  .pronunciation {
-    font-size: 1.5em;
-    color: rgba(164, 110, 183, 0.7);
-  }
+ .intro {
+  color: rgb(235, 181, 255);
+ }
 }
 
 @media (prefers-color-scheme: light) {
-  .pronunciation {
-    font-size: 1.5em;
-    color: rgba(93, 55, 107, 0.7);
+  .intro {
+    color: rgb(122, 39, 152);
   }
 }

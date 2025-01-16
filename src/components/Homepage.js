@@ -8,7 +8,7 @@ function Homepage() {
     <div className="homepage">
       <Background />
       <Menu className="menu" />
-      <div className="text">hello, my name is</div>
+      <div className="text intro">hello, my name is</div>
       <Name className="title"/>
       <div className="text pronunciation">i &bull; leen</div>
     </div>

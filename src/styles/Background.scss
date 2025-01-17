@@ -9,6 +9,8 @@
   height: 100vh;
   overflow: hidden;
   z-index: -1;
+  background-size: cover;
+  background-position: center;
 
   svg {
     position: absolute;
@@ -28,6 +30,7 @@
     width: 100%;
     height: 100%;
     animation: move 20s infinite ease-in-out alternate;
+    transition: scale(4s ease-in-out);
     mix-blend-mode: screen;
     filter: blur(9999px);
 
@@ -78,7 +81,11 @@
 
 @media (prefers-color-scheme: dark) {
   .background {
-    background-color: #00012a;
+    background-image: url('../assets/Background_Dark.png');
+  }
+  .glass {
+    object-fit: cover;
+    background-image: url('../assets/Glass_Dark.png');
   }
   :root {
     --color1: rgba(25, 0, 47, 0.8);
@@ -91,7 +98,7 @@
 
 @media (prefers-color-scheme: light) {
   .background {
-    background-color: #303277;
+    background-image: url('../assets/Background_Light.png');
   }
   :root {
     --color1: rgba(108, 32, 175, 0.8);

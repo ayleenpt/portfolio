@@ -1,6 +1,6 @@
 import React from 'react';
-import Background from "../Background";
-import Menu from '../Menu';
+import Background from "../page/Background";
+import Menu from '../page/Menu';
 
 function Aurora() {
   return (

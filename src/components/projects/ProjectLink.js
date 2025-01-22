@@ -3,10 +3,7 @@ import '../../styles/projects/ProjectLink.css';
 
 function ProjectLink({ projectName, thumbnail, link }) {
   const navigate = useNavigate();
-
-  const handleClick = () => {
-    navigate("/");
-  };
+  const handleClick = () => { navigate(`/projects${link}`); };
 
   return (
     <div className="project-link" onClick={handleClick}>

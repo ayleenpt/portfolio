@@ -33,3 +33,10 @@
 .project-link:hover .project-name {
   opacity: 100%;
 }
+
+@media (max-width: 960px) {
+  .project-link {
+    width: 80vw;
+    height: auto;
+  }
+}

@@ -15,3 +15,10 @@
   align-items: center;
   gap: 8vw;
 }
+
+@media (max-width: 960px) {
+  .project-row {
+    flex-direction: column;
+    gap: 4vw;
+  }
+}

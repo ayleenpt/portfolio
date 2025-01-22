@@ -2,6 +2,11 @@ import { useLocation } from "react-router-dom";
 import Background from "./Background";
 import Menu from "./Menu";
 import ProjectLink from "./ProjectLink";
+import AuroraThumbnail from "../assets/thumbnails/thumbnail_aurora.png";
+import IconMakerThumbnail from "../assets/thumbnails/thumbnail_icon_maker.png"
+import MaskiMinigamesThumbnail from "../assets/thumbnails/thumbnail_maski_minigames.png"
+import NotesToSelfThumbnail from "../assets/thumbnails/thumbnail_notes_to_self.png"
+import TicTacToeThumbnail from "../assets/thumbnails/thumbnail_tictactoe.png"
 
 function Projects() {
   const location = useLocation(); // Get the current path
@@ -10,11 +15,11 @@ function Projects() {
     <div className="Projects">
       <Background />
       <Menu key={location.pathname} />
-      <ProjectLink projectName="Icon Maker" thumbnail="" link="/icon-maker" />
-      <ProjectLink projectName="Notes to Self" thumbnail="" link="/notes-to-self" />
-      <ProjectLink projectName="Tic Tac Toe" thumbnail="" link="/tic-tac-toe" />
-      <ProjectLink projectName="MASKI Minigames" thumbnail="" link="/maski-minigames" />
-      <ProjectLink projectName="Aurora" thumbnail="" link="/aurora" />
+      <ProjectLink projectName="Tic Tac Toe" thumbnail={TicTacToeThumbnail} link="/tic-tac-toe" />
+      <ProjectLink projectName="Aurora" thumbnail={AuroraThumbnail} link="/aurora" />
+      <ProjectLink projectName="Icon Maker" thumbnail={IconMakerThumbnail} link="/icon-maker" />
+      <ProjectLink projectName="MASKI Minigames" thumbnail={MaskiMinigamesThumbnail} link="/maski-minigames" />
+      <ProjectLink projectName="Notes to Self" thumbnail={NotesToSelfThumbnail} link="/notes-to-self" />
     </div>
   );
 }

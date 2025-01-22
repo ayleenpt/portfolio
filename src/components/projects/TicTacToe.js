@@ -4,7 +4,7 @@ import Menu from '../page/Menu';
 
 function TicTacToe() {
   return (
-    <div className="About">
+    <div className="tic-tac-toe">
       <Background />
       <h1>About</h1>
       <Menu />

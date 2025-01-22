@@ -4,7 +4,7 @@ import Menu from '../page/Menu';
 
 function MaskiMinigames() {
   return (
-    <div className="About">
+    <div className="maski-minigames">
       <Background />
       <h1>About</h1>
       <Menu />

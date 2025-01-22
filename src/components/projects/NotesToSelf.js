@@ -4,7 +4,7 @@ import Menu from '../page/Menu';
 
 function NotesToSelf() {
   return (
-    <div className="About">
+    <div className="notes-to-self">
       <Background />
       <h1>About</h1>
       <Menu />

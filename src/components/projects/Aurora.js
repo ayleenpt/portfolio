@@ -4,7 +4,7 @@ import Menu from '../page/Menu';
 
 function Aurora() {
   return (
-    <div className="About">
+    <div className="aurora">
       <Background />
       <h1>About</h1>
       <Menu />

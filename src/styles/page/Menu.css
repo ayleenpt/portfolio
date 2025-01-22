@@ -4,7 +4,7 @@
   top: 20px;
   background: none;
   border: none;
-  cursor: url('../assets/cursors/Pointer.png'), auto;
+  cursor: url('../../assets/cursors/Pointer.png'), auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,7 +93,7 @@
   width: 100px;
   opacity: 1;
   transform: scale(1);
-  cursor: url('../assets/cursors/Pointer.png'), auto;
+  cursor: url('../../assets/cursors/Pointer.png'), auto;
 }
 
 .menu-button.active .label {

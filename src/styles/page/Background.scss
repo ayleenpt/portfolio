@@ -81,7 +81,7 @@
 
 @media (prefers-color-scheme: dark) {
   .background {
-    background-image: url('../assets/page/Background_Dark.png');
+    background-image: url('../../assets/page/Background_Dark.png');
   }
   :root {
     --color1: rgba(25, 0, 47, 0.8);
@@ -94,7 +94,7 @@
 
 @media (prefers-color-scheme: light) {
   .background {
-    background-image: url('../assets/page/Background_Light.png');
+    background-image: url('../../assets/page/Background_Light.png');
   }
   :root {
     --color1: rgba(108, 32, 175, 0.8);

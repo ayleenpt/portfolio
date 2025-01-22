@@ -14,55 +14,28 @@ function Menu() {
 
   const navigateTo = (path) => {
     if (isActive) {
-      setIsActive(false); // Close menu after navigating
-      navigate(path); // Use React Router navigation
+      setIsActive(false);
+      navigate(path);
     }
   };
 
   const renderMenuItems = () => {
-    switch (location.pathname) {
-      case "/":
-        return (
-          <>
-            <button className="menu-item right" onClick={() => navigateTo("/about")}>
-              <img src={Bubble} alt="about" />
-              <div className="label">about</div>
-            </button>
-            <button className="menu-item top" onClick={() => navigateTo("/projects")}>
-              <img src={Bubble} alt="projects" />
-              <div className="label">projects</div>
-            </button>
-          </>
-        );
-      case "/about":
-        return (
-          <>
-            <button className="menu-item right" onClick={() => navigateTo("/")}>
-              <img src={Bubble} alt="home" />
-              <div className="label">home</div>
-            </button>
-            <button className="menu-item top" onClick={() => navigateTo("/projects")}>
-              <img src={Bubble} alt="projects" />
-              <div className="label">projects</div>
-            </button>
-          </>
-        );
-      case "/projects":
-        return (
-          <>
-            <button className="menu-item right" onClick={() => navigateTo("/about")}>
-              <img src={Bubble} alt="about" />
-              <div className="label">about</div>
-            </button>
-            <button className="menu-item top" onClick={() => navigateTo("/")}>
-              <img src={Bubble} alt="home" />
-              <div className="label">home</div>
-            </button>
-          </>
-        );
-      default:
-        return null;
-    }
+    return (
+      <>
+        <button className="menu-item home-button" onClick={() => navigateTo("/")}>
+          <img src={Bubble} alt="home" />
+          <div className="label">home</div>
+        </button>
+        <button className="menu-item about-button" onClick={() => navigateTo("/about")}>
+          <img src={Bubble} alt="about" />
+          <div className="label">about</div>
+        </button>
+        <button className="menu-item project-button" onClick={() => navigateTo("/projects")}>
+          <img src={Bubble} alt="projects" />
+          <div className="label">projects</div>
+        </button>
+      </>
+    );
   };
 
   return (

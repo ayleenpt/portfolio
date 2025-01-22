@@ -1,0 +1,14 @@
+.about {
+  width: 100dvw;
+  height: 100dvh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  color: white;
+  font-size: 20px;
+  cursor: url('../../assets/cursors/Pointer.png'), auto;
+}

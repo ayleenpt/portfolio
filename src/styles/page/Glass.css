@@ -1,8 +1,8 @@
 .glass {
   position: absolute;
   text-align: center;
-  width: 100svw;
-  height: 100svh;
+  width: 100dvw;
+  height: 100dvh;
   top: 0;
   left: 0;
   z-index: 1;

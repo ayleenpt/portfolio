@@ -5,8 +5,8 @@
   align-items: center;
   top: 0;
   left: 0;
-  width: 100svw;
-  height: 100svh;
+  width: 100dvw;
+  height: 100dvh;
   overflow: hidden;
   z-index: -1;
   background-size: cover;
@@ -19,8 +19,8 @@
   }
 
   .blob-container {
-    width: 100svw;
-    height: 100svh;
+    width: 100dvw;
+    height: 100dvh;
     filter: url(#goo);
   }
 

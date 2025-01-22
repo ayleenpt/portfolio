@@ -1,13 +1,13 @@
 import { useLocation } from "react-router-dom";
-import Background from "./Background";
-import Menu from "./Menu";
+import Background from "../Background";
+import Menu from "../Menu";
 import ProjectLink from "./ProjectLink";
-import AuroraThumbnail from "../assets/thumbnails/thumbnail_aurora.png";
-import IconMakerThumbnail from "../assets/thumbnails/thumbnail_icon_maker.png"
-import MaskiMinigamesThumbnail from "../assets/thumbnails/thumbnail_maski_minigames.png"
-import NotesToSelfThumbnail from "../assets/thumbnails/thumbnail_notes_to_self.png"
-import TicTacToeThumbnail from "../assets/thumbnails/thumbnail_tictactoe.png"
-import "../styles/Projects.css";
+import AuroraThumbnail from "../../assets/thumbnails/thumbnail_aurora.png";
+import IconMakerThumbnail from "../../assets/thumbnails/thumbnail_icon_maker.png";
+import MaskiMinigamesThumbnail from "../../assets/thumbnails/thumbnail_maski_minigames.png";
+import NotesToSelfThumbnail from "../../assets/thumbnails/thumbnail_notes_to_self.png";
+import TicTacToeThumbnail from "../../assets/thumbnails/thumbnail_tictactoe.png";
+import "../../styles/projects/Projects.css";
 
 function Projects() {
   const location = useLocation();

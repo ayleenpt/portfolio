@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import '../styles/ProjectLink.css';
+import '../../styles/projects/ProjectLink.css';
 
 function ProjectLink({ projectName, thumbnail, link }) {
   const navigate = useNavigate();

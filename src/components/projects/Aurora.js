@@ -1,8 +1,8 @@
 import React from 'react';
-import Background from "./Background";
-import Menu from './Menu';
+import Background from "../Background";
+import Menu from '../Menu';
 
-function About() {
+function Aurora() {
   return (
     <div className="About">
       <Background />
@@ -12,4 +12,4 @@ function About() {
   );
 }
 
-export default About;
+export default Aurora;

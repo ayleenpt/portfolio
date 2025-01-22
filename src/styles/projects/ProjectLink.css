@@ -1,8 +1,8 @@
 .project-link {
-  width: 38vw;
+  width: 44vw;
   height: auto;
   background-color: #000000;
-  cursor: url('../assets/cursors/Pointer.png'), auto;
+  cursor: url('../../assets/cursors/Pointer.png'), auto;
   display: flex;
   justify-content: center;
   align-items: center;

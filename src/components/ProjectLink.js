@@ -11,6 +11,7 @@ function ProjectLink({ projectName, thumbnail, link }) {
   return (
     <div className="project-link" onClick={handleClick}>
       <img className="thumbnail" src={thumbnail} alt={projectName} />
+      <h1 className="project-name">{projectName}</h1>
     </div>
   );
 }

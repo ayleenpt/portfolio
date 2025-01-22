@@ -5,12 +5,12 @@ function ProjectLink({ projectName, thumbnail, link }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/about");
+    navigate("/");
   };
 
   return (
     <div className="project-link" onClick={handleClick}>
-      {projectName}
+      <img className="thumbnail" src={thumbnail} alt={projectName} />
     </div>
   );
 }

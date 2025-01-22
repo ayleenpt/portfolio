@@ -1,6 +1,10 @@
 .project-link {
-  width: 200px;
-  height: 200px;
-  border: 2px solid red;
+  width: 38vw;
+  height: auto;
   cursor: url('../assets/cursors/Pointer.png'), auto;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
 }

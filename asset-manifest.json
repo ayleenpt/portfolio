@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.59c73131.css",
+    "main.css": "/portfolio/static/css/main.77de52cc.css",
     "main.js": "/portfolio/static/js/main.9dc3c53c.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/Glass_Light.png": "/portfolio/static/media/Glass_Light.72bae122be191ca4535e.png",
     "static/media/Glass_Dark.png": "/portfolio/static/media/Glass_Dark.c9305ab7a89fad776a55.png",
+    "static/media/Background_Dark.png": "/portfolio/static/media/Background_Dark.3f2c600523fe25e9e79a.png",
+    "static/media/Background_Light.png": "/portfolio/static/media/Background_Light.9afd30d620aa45113396.png",
     "static/media/thumbnail_aurora.png": "/portfolio/static/media/thumbnail_aurora.62f09ab18aa4e68b3608.png",
     "static/media/thumbnail_notes_to_self.png": "/portfolio/static/media/thumbnail_notes_to_self.19e6149553d456313a40.png",
     "static/media/thumbnail_tictactoe.png": "/portfolio/static/media/thumbnail_tictactoe.9f0000bbde36c81f7b83.png",
     "static/media/thumbnail_maski_minigames.png": "/portfolio/static/media/thumbnail_maski_minigames.1e3f4490737a82263312.png",
-    "static/media/Background_Light.png": "/portfolio/static/media/Background_Light.120d45b6b44a2a0b2d50.png",
-    "static/media/Background_Dark.png": "/portfolio/static/media/Background_Dark.a29c733fd7d5d46f22e8.png",
     "static/media/N.png": "/portfolio/static/media/N.1308b8999b3d93426df8.png",
     "static/media/A.png": "/portfolio/static/media/A.4f8860419f71a54cfe60.png",
     "static/media/thumbnail_icon_maker.png": "/portfolio/static/media/thumbnail_icon_maker.9ceb100744d15d19dc7c.png",
@@ -19,12 +19,12 @@
     "static/media/L.png": "/portfolio/static/media/L.f5f9a0642af71a15872e.png",
     "static/media/Bubble.png": "/portfolio/static/media/Bubble.2365f44e6ef9d87f2b03.png",
     "index.html": "/portfolio/index.html",
-    "main.59c73131.css.map": "/portfolio/static/css/main.59c73131.css.map",
+    "main.77de52cc.css.map": "/portfolio/static/css/main.77de52cc.css.map",
     "main.9dc3c53c.js.map": "/portfolio/static/js/main.9dc3c53c.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59c73131.css",
+    "static/css/main.77de52cc.css",
     "static/js/main.9dc3c53c.js"
   ]
 }

@@ -2,5 +2,5 @@
   width: 200px;
   height: 200px;
   border: 2px solid red;
-  cursor: url('../assets/Pointer.png'), auto;
+  cursor: url('../assets/cursors/Pointer.png'), auto;
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/Name.css';
-import A from '../assets/A.png';
-import Y from '../assets/Y.png';
-import L from '../assets/L.png';
-import E from '../assets/E.png';
-import N from '../assets/N.png';
+import A from '../assets/name/A.png';
+import Y from '../assets/name/Y.png';
+import L from '../assets/name/L.png';
+import E from '../assets/name/E.png';
+import N from '../assets/name/N.png';
 
 function Name() {
   return (

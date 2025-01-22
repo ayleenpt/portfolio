@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "../styles/Menu.css";
-import Bubble from "../assets/Bubble.png";
+import Bubble from "../assets/page/Bubble.png";
 
 function Menu() {
   const [isActive, setIsActive] = useState(false);

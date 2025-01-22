@@ -13,12 +13,12 @@
 
 @media (prefers-color-scheme: dark) {
   .glass {
-    background-image: url('../assets/Glass_Dark.png');
+    background-image: url('../assets/page/Glass_Dark.png');
   }
 }
 
 @media (prefers-color-scheme: light) {
   .glass {
-    background-image: url('../assets/Glass_Light.png');
+    background-image: url('../assets/page/Glass_Light.png');
   }
 }

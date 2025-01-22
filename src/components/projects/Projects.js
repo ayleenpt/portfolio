@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
-import Background from "../Background";
-import Menu from "../Menu";
+import Background from "../page/Background";
+import Menu from "../page/Menu";
 import ProjectLink from "./ProjectLink";
 import AuroraThumbnail from "../../assets/thumbnails/thumbnail_aurora.png";
 import IconMakerThumbnail from "../../assets/thumbnails/thumbnail_icon_maker.png";

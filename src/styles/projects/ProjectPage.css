@@ -118,7 +118,7 @@
 @media (max-width: 600px) {
   .projectTitle { font-size: 4em; margin-top: 40px; }
   .date { font-size: 1em; }
-  .projectIntro { flex-direction: column; }
+  .projectIntro { align-items: center; flex-direction: column; }
   .projectImage, .description, .projectDetails { width: 80dvw; }
   .description, .projectTools{ font-size: 1em;}
   .projectDetails { margin-left: 0; }

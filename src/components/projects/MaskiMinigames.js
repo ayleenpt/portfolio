@@ -5,7 +5,7 @@ import ProjectPage from './ProjectPage';
 
 function MaskiMinigames() {
   const location = useLocation();
-  const description = "MASKI Minigames features two classic mini games, snake and endless racing, developed in a collaborative project with React.js. I led the design and construction of the homepage, user interfaces, and page setup. I also assisted with decoupling and refactoring game components to streamline the final product, working iteratively with my team through refinement, development, and review sessions to deliver the final website you see now.";
+  const description = "MASKI Minigames features two classic mini games developed in a collaborative project using React.js. I led the design and construction of the homepage, user interfaces, graphics, and page setup. I also assisted with decoupling and refactoring game components to streamline the final product, working iteratively with my team through refinement, development, and review sessions to deliver the final website you see now.";
   return (
     <ProjectPage
       title="MASKI Minigames"

@@ -70,6 +70,10 @@
   cursor: pointer;
 }
 
+.visitProject:hover {
+  cursor: url('../../assets/cursors/Pointer.png'), auto;
+}
+
 @media (prefers-color-scheme: dark) {
   .projectTitle, .projectTools { color: rgb(235, 181, 255); }
   .description, .visitProject { color: rgb(250, 235, 255); }

@@ -1,17 +1,23 @@
 import { useLocation } from "react-router-dom";
 import React from 'react';
-import Background from "../page/Background";
-import Menu from '../page/Menu';
+import Homescreen from '../../assets/projects/maskiminigames/Homescreen.png'
+import ProjectPage from './ProjectPage';
 
 function MaskiMinigames() {
   const location = useLocation();
-
+  const description = "";
   return (
-    <div className="maski-minigames">
-      <Background />
-      <h1>MASKI Minigames</h1>
-      <Menu key={location.pathname} />
-    </div>
+    <ProjectPage
+      title="MASKI Minigames"
+      date="Nov-Dec 2024"
+      description={description}
+      homescreen={Homescreen}
+      projectTools="React, Javascript, HTML, CSS, GitHub Pages"
+      location={location}
+      visitProject="Visit MASKI Minigames"
+      projectLink="https://bubseatbubs.github.io/maskiminigames/"
+    >
+    </ProjectPage>
   );
 }
 

@@ -1,17 +1,21 @@
 import { useLocation } from "react-router-dom";
 import React from 'react';
-import Background from "../page/Background";
-import Menu from '../page/Menu';
+import Homescreen from '../../assets/projects/notestoself/Homescreen.png'
+import ProjectPage from './ProjectPage';
 
 function NotesToSelf() {
   const location = useLocation();
-
+  const description = "";
   return (
-    <div className="notes-to-self">
-      <Background />
-      <h1>Notes To Self</h1>
-      <Menu key={location.pathname} />
-    </div>
+    <ProjectPage
+      title="Notes to Self"
+      date="Jun-Jul 2024"
+      description={description}
+      homescreen={Homescreen}
+      projectTools="React, Javascript, HTML, CSS, GitHub Pages"
+      location={location}
+    >
+    </ProjectPage>
   );
 }
 

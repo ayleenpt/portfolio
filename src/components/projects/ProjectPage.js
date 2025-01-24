@@ -15,12 +15,14 @@ function ProjectPage({ title, date, description, homescreen, projectTools, locat
         <div className="projectDetails">
           <div className="createdWith">Created with</div>
           <div className="projectTools">{projectTools}</div>
-          <button
-            className="visitProject"
-            onClick={() => window.open(projectLink, "_blank")}
-          >
-            {visitProject}
-          </button>
+          {projectLink && (
+            <button
+              className="visitProject"
+              onClick={() => window.open(projectLink, "_blank")}
+            >
+              {visitProject}
+            </button>
+          )}
         </div>
       </div>
       <Menu key={location.pathname} />

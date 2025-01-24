@@ -1,4 +1,4 @@
-.projectPage {
+.project-page {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   font-family: Arial, sans-serif;
 }
 
-.projectTitle {
+.project-title {
   margin-top: 30px;
   width: 100dvw;
   height: auto;
@@ -18,7 +18,7 @@
   margin-bottom: 50px;
 }
 
-.projectIntro {
+.project-intro {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -29,7 +29,7 @@
   margin-bottom: 50px;
 }
 
-.projectDetails {
+.project-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,7 +37,7 @@
   flex-wrap: wrap;
 }
 
-.projectImage {
+.project-image {
   width: 40dvw;
   height: 100%;
 }
@@ -48,18 +48,18 @@
   font-size: 1.5em;
 }
 
-.projectTools {
+.project-tools {
   text-align: left;
   font-size: min(2.3dvw, 1.3em);
 }
 
-.visitProject {
+.visit-project {
   width: 400px;
   height: 70px;
   margin-top: 20px;
 }
 
-.visitProject {
+.visit-project {
   display: inline-block;
   border: 0;
   text-decoration: none;
@@ -70,28 +70,28 @@
   cursor: pointer;
 }
 
-.visitProject:hover {
+.visit-project:hover {
   cursor: url('../../assets/cursors/Pointer.png'), auto;
 }
 
 @media (prefers-color-scheme: dark) {
-  .projectTitle, .projectTools { color: rgb(235, 181, 255); }
-  .description, .visitProject { color: rgb(250, 235, 255); }
-  .date, .createdWith { color: rgba(164, 110, 183, 0.7); }
-  .visitProject { background-color: rgba(255,255,255,0.1); }
-  .visitProject:hover { background-color: rgba(255,255,255,0.2); }
+  .project-title, .project-tools { color: rgb(235, 181, 255); }
+  .description, .visit-project { color: rgb(250, 235, 255); }
+  .date, .created-with { color: rgba(164, 110, 183, 0.7); }
+  .visit-project { background-color: rgba(255,255,255,0.1); }
+  .visit-project:hover { background-color: rgba(255,255,255,0.2); }
 }
 
 @media (prefers-color-scheme: light) {
-  .projectTitle, .projectTools { color: rgb(122, 39, 152); }
-  .description, .visitProject { color: rgb(60, 16, 77); }
-  .date, .createdWith { color: rgba(128, 63, 151, 0.7); }
-  .visitProject { background-color: rgba(255,255,255,0.2); }
-  .visitProject:hover { background-color: rgba(255,255,255,0.1); }
+  .project-title, .project-tools { color: rgb(122, 39, 152); }
+  .description, .visit-project { color: rgb(60, 16, 77); }
+  .date, .created-with { color: rgba(128, 63, 151, 0.7); }
+  .visit-project { background-color: rgba(255,255,255,0.2); }
+  .visit-project:hover { background-color: rgba(255,255,255,0.1); }
 }
 
 @media (max-width: 1225px) {
-  .visitProject {
+  .visit-project {
     width: 300px;
     height: 50px;
     margin-top: 10px;
@@ -99,32 +99,32 @@
 }
 
 @media (min-width: 1161px) {
-  .projectDetails {
+  .project-details {
     position: absolute;
     bottom: 0;
     left: 52dvw;
   }
   .description { display: block; width: 40dvw; }
-  .visitProject { font-size: 1.3em; }
+  .visit-project { font-size: 1.3em; }
 }
 
 @media (max-width: 1160px) {
-  .projectIntro { align-items: top; }
-  .projectDetails { width: 100%; margin-top: 10px; margin-left: 8dvw; }
+  .project-intro { align-items: top; }
+  .project-details { width: 100%; margin-top: 10px; margin-left: 8dvw; }
   .description {font-size: 2.38dvw;}
-  .visitProject { font-size: 1.2em; }
+  .visit-project { font-size: 1.2em; }
 }
 
 @media (max-width: 600px) {
-  .projectTitle { font-size: 4em; margin-top: 40px; }
+  .project-title { font-size: 4em; margin-top: 40px; }
   .date { font-size: 1em; }
-  .projectIntro { align-items: center; flex-direction: column; }
-  .projectImage, .description, .projectDetails { width: 80dvw; }
-  .description, .projectTools{ font-size: 1em;}
-  .projectDetails { margin-left: 0; }
-  .visitProject { width: 80dvw; height: 70px; font-size: 1em; }
+  .project-intro { align-items: center; flex-direction: column; }
+  .project-image, .description, .project-details { width: 80dvw; }
+  .description, .project-tools{ font-size: 1em;}
+  .project-details { margin-left: 0; }
+  .visit-project { width: 80dvw; height: 70px; font-size: 1em; }
 }
 
 @media (max-width: 450px) {
-  .projectTitle { font-size: 3em; margin-top: 50px; }
+  .project-title { font-size: 3em; margin-top: 50px; }
 }

@@ -1,23 +1,25 @@
 import React from 'react';
 import Background from "../page/Background";
 import Menu from '../page/Menu';
+import Footer from '../page/Footer';
 import '../../styles/projects/ProjectPage.css';
 
 function ProjectPage({ title, date, description, homescreen, projectTools, location, visitProject, projectLink }) {
   return (
-    <div className="projectPage">
+    <div className="project-page">
       <Background />
-      <div className="projectTitle">{title}</div>
+      <Menu key={location.pathname} />
+      <div className="project-title">{title}</div>
       <div className="date">{date}</div>
-      <div className="projectIntro">
-        <img className="projectImage" src={homescreen} alt="Project Homescreen" />
+      <div className="project-intro">
+        <img className="project-image" src={homescreen} alt="Project Homescreen" />
         <div className="description">{description}</div>
-        <div className="projectDetails">
-          <div className="createdWith">Created with</div>
-          <div className="projectTools">{projectTools}</div>
+        <div className="project-details">
+          <div className="created-with">Created with</div>
+          <div className="project-tools">{projectTools}</div>
           {projectLink && (
             <button
-              className="visitProject"
+              className="visit-project"
               onClick={() => window.open(projectLink, "_blank")}
             >
               {visitProject}
@@ -25,7 +27,7 @@ function ProjectPage({ title, date, description, homescreen, projectTools, locat
           )}
         </div>
       </div>
-      <Menu key={location.pathname} />
+      <Footer />
     </div>
   );
 }

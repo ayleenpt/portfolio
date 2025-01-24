@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 import Background from "../page/Background";
 import Menu from "../page/Menu";
 import ProjectLink from "./ProjectLink";
+import Footer from "../page/Footer";
 import AuroraThumbnail from "../../assets/thumbnails/thumbnail_aurora.png";
 import IconMakerThumbnail from "../../assets/thumbnails/thumbnail_icon_maker.png";
 import MaskiMinigamesThumbnail from "../../assets/thumbnails/thumbnail_maski_minigames.png";
@@ -29,6 +30,7 @@ function Projects() {
         <ProjectLink projectName="Notes to Self" thumbnail={NotesToSelfThumbnail} link="/notes-to-self" />  
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

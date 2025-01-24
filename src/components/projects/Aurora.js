@@ -5,7 +5,7 @@ import ProjectPage from './ProjectPage';
 
 function Aurora() {
   const location = useLocation();
-  const description = "Aurora features a night sky with twinkling stars that react to mouse movements, built using React.js's useState, useEffect, and useCallback. This project required extensive research and iteration, enhancing my web development skills as I reduced re-renders and streamlined animations to optimize performance and reduce lag. This project not only strengthened my technical abilities but also deepened my understanding of building efficient, interactive web applications.";
+  const description = "Aurora features a night sky with twinkling stars that react to the movements of the mouse. Bringing the stars behavior to life was challenging, but through many cycles of research, trial, and iteration, I achieved the interactive effect I had imagined, even adding interesting effects for when the mouse is still. I optimized the site’s performance by minimizing re-renders and streamlining the animations that create the twinkling effect, leading to a simpler and more efficient final product. Aurora was a rewarding challenge that remains a flexible project, with room for me to continue building off of and improving as I develop my talents.";
   return (
     <ProjectPage
       title="Aurora"

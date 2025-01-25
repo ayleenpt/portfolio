@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../styles/page/Menu.css";
 import Bubble from "../../assets/page/Bubble.png";
 
 function Menu() {
   const [isActive, setIsActive] = useState(false);
-  const location = useLocation();
   const navigate = useNavigate();
 
   const onClick = () => {

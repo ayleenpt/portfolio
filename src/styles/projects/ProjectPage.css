@@ -39,6 +39,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+  width: 40dvw;
 }
 
 .project-image {
@@ -106,7 +107,7 @@
   .project-details {
     position: absolute;
     bottom: 0;
-    left: 52dvw;
+    margin-left: 44dvw;
   }
   .description { display: block; width: 40dvw; }
   .visit-project { font-size: 1.3em; }

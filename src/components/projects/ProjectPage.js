@@ -4,7 +4,7 @@ import Menu from '../page/Menu';
 import Footer from '../page/Footer';
 import '../../styles/projects/ProjectPage.css';
 
-function ProjectPage({ title, date, description, homescreen, projectTools, location, visitProject, projectLink }) {
+function ProjectPage({ title, date, description, homescreen, projectTools, location, visitProject, projectLink, bonusContent }) {
   return (
     <div className="project-page">
       <Background />
@@ -27,6 +27,11 @@ function ProjectPage({ title, date, description, homescreen, projectTools, locat
           )}
         </div>
       </div>
+      {bonusContent && (
+        <div className="bonus-content">
+          {bonusContent}
+        </div>
+      )}
       <Footer />
     </div>
   );

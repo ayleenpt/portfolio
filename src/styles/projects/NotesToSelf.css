@@ -1,0 +1,14 @@
+.project-features {
+  display: flex;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  width: 84dvw;
+}
+
+@media (max-width: 600px) {
+  .project-features {
+    width: 80dvw;
+  }
+}

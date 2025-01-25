@@ -2,7 +2,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  box-sizing: border-box;
   height: 100dvh;
   width: 100dvw;
   font-family: Arial, sans-serif;
@@ -118,7 +119,7 @@
 }
 
 @media (max-width: 600px) {
-  .project-title { font-size: 4em; margin-top: 40px; }
+  .project-title { font-size: 4em; margin-top: 60px; }
   .date { font-size: 1em; }
   .project-intro { align-items: center; flex-direction: column; }
   .project-image, .description, .project-details { width: 80dvw; }

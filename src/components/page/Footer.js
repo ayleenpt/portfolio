@@ -1,8 +1,8 @@
 import '../../styles/page/Footer.css';
 
-function Footer() {
+function Footer(className) {
   return (
-    <div className={"footer"}>
+    <div className={`footer ${className}`}>
       <a
         className="footer-link"
         href="https://www.linkedin.com/in/ayleenpt/"

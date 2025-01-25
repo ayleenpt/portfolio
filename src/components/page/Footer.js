@@ -1,12 +1,13 @@
 import '../../styles/page/Footer.css';
 
-function Footer(className) {
+function Footer({ customStyle }) {
   return (
-    <div className={`footer ${className}`}>
+    <div className="footer" style={customStyle}>
       <a
         className="footer-link"
         href="https://www.linkedin.com/in/ayleenpt/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         linkedin.com/in/ayleenpt
       </a>

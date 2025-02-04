@@ -8,32 +8,3 @@
   width: 100dvw;
   overflow: hidden;
 }
-
-.text {
-  font-family: 'Arial', sans-serif;
-  font-size: 2em;
-  margin: 20px;
-  text-align: center;
-}
-
-.pronunciation {
-  font-size: 1.5em;
-}
-
-@media (prefers-color-scheme: dark) {
- .intro {
-  color: rgb(235, 181, 255);
- }
- .pronunciation {
-    color: rgba(164, 110, 183, 0.7);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .intro {
-    color: rgb(122, 39, 152);
-  }
-  .pronunciation {
-    color: rgba(128, 63, 151, 0.7);
-  }
-}

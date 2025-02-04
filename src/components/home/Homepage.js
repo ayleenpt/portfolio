@@ -12,9 +12,7 @@ function Homepage() {
     <div className="homepage">
       <Background />
       <Menu key={location.pathname} className="menu" />
-      <div className="text intro">hello, my name is</div>
       <Name className="title" />
-      <div className="text pronunciation">i &bull; leen</div>
       <Footer
         customStyle={{
           position: 'absolute',

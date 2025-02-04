@@ -9,24 +9,28 @@ import '../../styles/home/Name.css';
 function Name() {
   return (
     <div className="name">
-      <div className="letter one">
-        <img src={A} alt="A" />
+      <div className="text intro">hello, my name is</div>
+      <div className="letters">
+        <div className="letter one">
+          <img src={A} alt="A" />
+        </div>
+        <div className="letter two">
+          <img src={Y} alt="Y" />
+        </div>
+        <div className="letter three">
+          <img src={L} alt="L" />
+        </div>
+        <div className="letter one">
+          <img src={E} alt="E" />
+        </div>
+        <div className="letter three">
+          <img src={E} alt="E" />
+        </div>
+        <div className="letter two">
+          <img src={N} alt="N" />
+        </div>
       </div>
-      <div className="letter two">
-        <img src={Y} alt="Y" />
-      </div>
-      <div className="letter three">
-        <img src={L} alt="L" />
-      </div>
-      <div className="letter one">
-        <img src={E} alt="E" />
-      </div>
-      <div className="letter three">
-        <img src={E} alt="E" />
-      </div>
-      <div className="letter two">
-        <img src={N} alt="N" />
-      </div>
+      <div className="text pronunciation">i &bull; leen</div>
     </div>
   );
 }

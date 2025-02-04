@@ -1,5 +1,13 @@
 .name {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.letters {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -52,6 +60,17 @@
   width: auto;
 }
 
+.pronunciation {
+  font-size: 1.5em;
+}
+
+.text {
+  font-family: 'Arial', sans-serif;
+  font-size: 2em;
+  margin: 20px;
+  text-align: center;
+}
+
 @keyframes one {
   0%, 100% {
     transform: translate(0, 0);
@@ -85,5 +104,23 @@
   }
   75% {
     transform: translate(2px, -2px);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .intro {
+   color: rgb(235, 181, 255);
+  }
+  .pronunciation {
+    color: rgba(164, 110, 183, 0.7);
+  }
+}
+
+ @media (prefers-color-scheme: light) {
+  .intro {
+    color: rgb(122, 39, 152);
+  }
+  .pronunciation {
+    color: rgba(128, 63, 151, 0.7);
   }
 }

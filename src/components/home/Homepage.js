@@ -12,7 +12,7 @@ function Homepage() {
     <div className="homepage">
       <Background />
       <Menu key={location.pathname} className="menu" />
-      <Name className="title" />
+      <Name />
       <Footer
         customStyle={{
           position: 'absolute',

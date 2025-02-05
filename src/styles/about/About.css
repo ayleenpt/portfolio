@@ -33,15 +33,6 @@
   width: 40dvw;
 }
 
-:root {
-  --letter-height: min(100px, 7.5vw);
-  --alignment: start;
-}
-
-.letter {
-  height: var(--letter-height);
-}
-
 .bio-text {
   font-family: 'Arial', sans-serif;
   text-align: left;
@@ -84,9 +75,4 @@
   .bio-text { font-size: 3.5dvw; }
   .intro { font-size: 2em; }
   .pronunciation { font-size: 1.5em; }
-  :root { --letter-height: 17dvw; --alignment: center; }
-}
-
-@media (max-width: 450px) {
-
 }

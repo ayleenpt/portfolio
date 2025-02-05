@@ -3,6 +3,7 @@ import Background from "../page/Background";
 import Menu from "../page/Menu";
 import Name from "./Name";
 import Footer from "../page/Footer";
+import NameStyles from "../../styles/home/NameStyles.module.css";
 import '../../styles/home/Homepage.css';
 
 function Homepage() {
@@ -12,7 +13,10 @@ function Homepage() {
     <div className="homepage">
       <Background />
       <Menu key={location.pathname} className="menu" />
-      <Name />
+      <Name
+        nameClass={NameStyles.homeAlign}
+        letterClass={NameStyles.homeLetter}
+      />
       <Footer
         customStyle={{
           position: 'absolute',

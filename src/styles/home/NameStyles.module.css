@@ -1,0 +1,26 @@
+.homeLetter {
+  position: relative;
+  margin: 0 min(10px, calc(90vw / 90));
+  height: min(200px, calc(90vw / 4.5));
+  width: auto;
+}
+
+.homeAlign {
+  align-items: center;
+}
+
+.aboutLetter {
+  position: relative;
+  margin: 0 min(10px, calc(90vw / 150));
+  height: min(100px, 7.5vw);
+  width: auto;
+}
+
+.aboutAlign {
+  align-items: start;
+}
+
+@media (max-width: 600px) {
+  .aboutLetter { height: 17dvw; }
+  .aboutAlign { align-items: center; }
+}

@@ -3,12 +3,90 @@
   height: 100dvh;
   position: relative;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.bio-container {
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: flex-start;
+  gap: 4dvw;
+  margin-bottom: 50px;
+}
+
+.headshot {
+  width: 40dvw;
+  height: auto;
+  max-height: 75dvh;
+  object-fit: contain;
+  margin-top: 25px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  width: 40dvw;
+}
+
+:root {
+  --letter-height: min(100px, 7.5vw);
+  --alignment: start;
+}
+
+.letter {
+  height: var(--letter-height);
+}
+
+.bio-text {
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  margin-left: 15px;
+  font-size: 1.5em;
 }
 
 .link {
   color: white;
   font-size: 20px;
   cursor: url('../../assets/cursors/Pointer.png'), auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bio-text { color: rgb(250, 235, 255); }
+}
+
+@media (prefers-color-scheme: light) {
+  .bio-text { color: rgb(60, 16, 77); }
+}
+
+@media (max-width: 1160px) {
+  .bio-text { font-size: 2dvw; }
+}
+
+@media (max-width: 1050px) {
+  .intro { font-size: 1.5em; }
+  .pronunciation { font-size: 1.2em; }
+}
+
+@media (max-width: 800px) {
+  .intro { font-size: 1.25em; }
+  .pronunciation { font-size: 1em; }
+}
+
+@media (max-width: 600px) {
+  .bio-container { flex-direction: column-reverse; align-items: center;}
+  .headshot { width: 75dvw;}
+  .bio { width: 80dvw; }
+  .bio-text { font-size: 3.5dvw; }
+  .intro { font-size: 2em; }
+  .pronunciation { font-size: 1.5em; }
+  :root { --letter-height: 17dvw; --alignment: center; }
+}
+
+@media (max-width: 450px) {
+
 }

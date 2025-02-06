@@ -20,7 +20,7 @@ function About() {
             letterClass={ NameStyles.aboutLetter }
           />
           <div className="bio-text">
-          I'm a senior at UW Bothell, graduating in June 2025 with a B.S. in Computer Science and Software Engineering. Beyond academics, I’ve tutored pre-major students through UW Bothell’s State Academic Rising Scholars (STARS) program and interned at Chewy as a backend software developer. In my free time I enjoy doing crafts with my friends, crocheting outfits for my cats, playing video games, and trying new food around Seattle.
+          I’ve had separate passions for creativity and mathematics since I was old enough to understand those concepts. In college I discovered software development as a conjunction between the two, leveraging my creative ability and logical thinking skills to excel academically and professionally. I completed a six month internship as a backend engineer in 2024, developing my confidence with full scale development and preparing me for a career in tech. I enjoy creating art with my engineering skills through making fun, interactive web apps that demonstrate my technical and artistic abilities. I will graduate from the University of Washington in June 2025, and I look forward to beginning my career as a software engineer.
           </div>
         </div>
       </div>

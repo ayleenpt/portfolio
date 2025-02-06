@@ -20,6 +20,10 @@
   align-items: start;
 }
 
+@media (max-width: 1000px) {
+  .aboutLetter { height: 10dvw; }
+}
+
 @media (max-width: 750px) {
   .aboutLetter { height: 17dvw; }
   .aboutAlign { align-items: center; }

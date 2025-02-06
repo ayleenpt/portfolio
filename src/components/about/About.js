@@ -3,7 +3,7 @@ import Background from "../page/Background";
 import Menu from '../page/Menu';
 import Name from '../home/Name';
 import Footer from '../page/Footer';
-import Headshot from '../../assets/about/Headshot.jpg';
+import Headshot from '../../assets/about/Headshot.png';
 import NameStyles from "../../styles/home/NameStyles.module.css";
 import '../../styles/about/About.css';
 
@@ -26,6 +26,16 @@ function About() {
       I’ve had separate passions for creativity and mathematics since I was old enough to understand those concepts. In college I discovered software development as a conjunction between the two, leveraging my creative ability and logical thinking skills to excel academically and professionally. I completed a six month internship as a backend engineer in 2024, developing my confidence with full scale development and preparing me for a career in tech. I enjoy creating art with my engineering skills through making fun, interactive web apps that demonstrate my technical and artistic abilities. I will graduate from the University of Washington in June 2025, and I look forward to beginning my career as a software engineer.
     </div>
 
+  const quoteText =
+    <div className="quote-text">
+      "Looking back, we were the luckiest people in the world. There was no choice but to be pioneers; no time to be beginners."
+    </div>
+
+  const location = 
+    <div className="location">
+      Seattle &bull; WA &bull; USA
+    </div>
+
   const [bioContents, setBioContents] = useState(window.innerWidth > 1000 ? [name, bio] : [name]);
   const [bioAfterContents, setBioAfterContents] = useState(window.innerWidth < 1000 ? [bio] : []);
 
@@ -40,13 +50,8 @@ function About() {
       }
     };
 
-    // Attach the event listener
     window.addEventListener("resize", handleResize);
-
-    // Call it once to set the initial state correctly in case the window size changes before rendering
     handleResize();
-
-    // Cleanup function to remove event listener when component unmounts
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -57,13 +62,21 @@ function About() {
       <Background />
       <Menu />
       <div className="bio-container">
-        { headshot }
-        <div className="bio">
+        <div className="left">
+          { headshot }
+          { location }
+        </div>
+        <div className="right">
           { bioContents }
         </div>
       </div>
       <div className="bio-after">
         { bioAfterContents }
+      </div>
+
+      <div className="quote">
+        { quoteText }
+        <div className="credit">Margaret Hamilton</div>
       </div>
       <Footer />
     </div>

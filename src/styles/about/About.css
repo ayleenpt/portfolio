@@ -4,8 +4,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  gap: 4dvw;
 }
 
 .bio-container {
@@ -18,69 +18,122 @@
   gap: 4dvw;
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30dvw;
+}
+
 .headshot {
-  width: 40dvw;
+  width: 100%;
   height: auto;
   max-height: 75dvh;
   object-fit: contain;
 }
 
-.bio {
+.location {
+  margin-top: 15px;
+  font-family: 'Arial', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+.right {
   display: flex;
   flex-direction: column;
-  width: 40dvw;
+  width: 50dvw;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .bio-text {
+  width: 92%;
   font-family: 'Arial', sans-serif;
   text-align: left;
   margin-left: 15px;
-  font-size: 1.45em;
+  margin-bottom: 30px;
+  font-size: 1.5dvw;
 }
 
 .bio-after {
-  width: 82dvw;
+  width: 84dvw;
   margin-top: 20px;
-  align-self: start;
-  margin-left: 8dvw;
+}
+
+.intro {
+  margin-top: 0px;
+  font-size: 2dvw;
+  margin-bottom: 15px;
+}
+
+.pronunciation {
+  font-size: 1.5dvw;
+  margin-top: 12px;
+}
+
+.quote {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 84dvw;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.quote-text {
+  width: 95%;
+  font-size: 2.5em;
+  text-shadow: 0 1px 2px rgb(153, 117, 167), 
+               0 2px 2px rgb(144, 109, 157),
+               0 3px 2px rgb(122, 92, 132),
+               0 4px 2px rgb(104, 76, 113),
+               0 5px 0 rgb(105, 76, 114),
+               0 6px 0 rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.credit {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 1.5em;
+  text-shadow: 0.5px 0.5px 0 rgb(47, 0, 64);
 }
 
 @media (prefers-color-scheme: dark) {
   .bio-text { color: rgb(250, 235, 255); }
+  .quote-text { color: rgb(235, 181, 255); }
+  .credit { color: rgb(156, 85, 182); }
+  .location { color: rgba(164, 110, 183, 0.7); }
 }
 
 @media (prefers-color-scheme: light) {
   .bio-text { color: rgb(60, 16, 77); }
-}
-
-@media (max-width: 1260px) {
-  .bio-text { font-size: 1.73dvw; }
-}
-
-@media (max-width: 1050px) {
-  .intro { font-size: 1.5em; }
-  .pronunciation { font-size: 1.2em; }
+  .quote-text { color: rgb(122, 39, 152); }
+  .credit { color: rgb(164, 110, 183); }
+  .location { color: rgba(128, 63, 151, 0.7); }
 }
 
 @media (max-width: 1000px) {
-  .headshot { width: 30dvw; }
-  .bio { width: 50dvw; }
-  .bio-container { justify-content: center; align-items: center; }
-  .bio-text { margin: 0px; font-size: 1.2em; }
-}
-
-@media (max-width: 800px) {
-  .intro { font-size: 1.25em; }
-  .pronunciation { font-size: 1em; }
-  .bio-after { align-self: center; margin-left: 0; }
+  .right { justify-content: center; }
+  .bio-text { width: 95%; margin: 0px; font-size: 1.2em; }
+  .intro { font-size: 3dvw; }
+  .pronunciation { font-size: 2.5dvw; }
 }
 
 @media (max-width: 750px) {
   .bio-container { flex-direction: column-reverse; align-items: center;}
-  .headshot { width: 75dvw;}
-  .bio { width: 80dvw; }
-  .bio-text { font-size: 3dvw; }
+  .left { width: 75dvw;}
+  .right { width: 80dvw; }
+  .bio-text { font-size: 1.2em; width: 100%; text-align: justify;}
   .bio-after { width: 74dvw; margin-left: 0px; }
+  .quote { width: 74dvw; }
+  .quote-text { width: 100%; font-size: 2.5em; }
   .intro { font-size: 2em; }
   .pronunciation { font-size: 1.5em; }
 }

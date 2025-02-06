@@ -9,11 +9,12 @@ import '../../styles/about/About.css';
 
 function About() {
   const headshot =
-    <img
-      className="headshot"
-      src={ Headshot }
-      alt="headshot"
-    />
+    <div className="headshot">
+      <img
+        src={ Headshot }
+        alt="headshot"
+      />
+    </div>
 
   const name =
     <Name

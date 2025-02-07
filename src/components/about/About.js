@@ -34,15 +34,14 @@ function About() {
       </div>
 
       <div className="resume-contact">
-        <div className="contact-download">
-          <button type="button">Download Resume</button>
-          <Contact />
+        <div className="resume-buttons">
+          <button className="resume-button view" type="button">View Resume</button>
+          
+          <a className="download-resume-link" href={ ResumePDF } download="AyleenPiteoTarpy_Resume" target='_blank'>
+            <button className="resume-button download" type="button">Download Resume</button>
+          </a>
         </div>
-        <img
-          className="resume"
-          src={ ResumePNG }
-          alt="Ayleen Piteo-Tarpy Resume"
-        />
+        <Contact />
       </div>
       <Footer />
     </div>

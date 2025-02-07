@@ -49,25 +49,55 @@
   font-family: 'Arial', sans-serif;
   font-weight: bold;
   text-align: left;
+  width: 95%;
+  margin: 0px;
+  font-size: 2dvw;
 }
 
 .resume-contact {
   margin-top: 70px;
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 50px;
+  margin-bottom: 70px;
+}
+
+.resume-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 84dvw;
+  height: auto;
   gap: 4dvw;
 }
 
-.contact-download {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 30dvw;
-  height: 100%;
-  gap: 4dvw;
+.download-resume-link {
+  width: auto;
+  height: auto;
+  cursor: url('../../assets/cursors/Pointer.png'), auto;
+}
+
+.resume-button {
+  width: min(40dvw, 400px);
+  height: 70px;
+  background: rgba(197, 158, 208, 0.7);
+  border-radius: 6px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), -2px -2px 0 rgba(141, 128, 172, 0.71);
+  backdrop-filter: blur(7.4px);
+  -webkit-backdrop-filter: blur(7.4px);
+  border: none;
+  cursor: url('../../assets/cursors/Pointer.png'), auto;
+  font-size: 1.2em;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.resume-button:hover {
+  background: rgba(197, 158, 208, 0.5);
 }
 
 .resume {
@@ -87,15 +117,11 @@
   .artist-statement { color: rgb(60, 16, 77); }
 }
 
-@media (max-width: 1000px) {
-  .resume-contact { flex-direction: column-reverse; }
-  .resume { width: 84dvw; }
-  .statement-text { width: 95%; margin: 0px; font-size: 2dvw; }
-}
-
 @media (max-width: 750px) {
   .quote { width: 74dvw; }
   .quote-text { width: 100%; font-size: 2.5em; }
   .artist-statement { width: 74dvw; margin-left: 0px; }
   .statement-text { font-size: 1.2em; width: 100%; text-align: justify; }
+  .resume-buttons { flex-direction: column;}
+  .resume-button { width: 75dvw; }
 }

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30dvw;
+  width: 84dvw;
   height: auto;
   background: rgba(103, 88, 144, 0.3);
   border-radius: 4px;
@@ -16,7 +16,7 @@ form {
   justify-content: center;
   position: relative;
   font-family: 'Arial', sans-serif;
-  width: 27dvw;
+  width: min(75.5dvw, 700px);
   height: auto;
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -29,10 +29,11 @@ form {
 form h2 {
   font-size: 1.5em;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .label-text {
-  width: 27dvw;
+  width: min(65dvw, 600px);
   text-align: left;
   font-weight: bold;
   color: #3e3e3e;
@@ -43,16 +44,16 @@ form .input-box {
 }
 
 .input-box .field {
-  width: 22dvw;
-  height: 50px;
+  width: min(65dvw, 600px);
+  height: 55px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), -2px -2px 0 rgba(255, 255, 255, 0.35);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(7.4px);
   border: none;
   outline: none;
   border-radius: 6px;
-  padding: 10px;
+  padding: 0.9dvw;
   font-size: 1em;
   color: #333;
   margin-top: 8px;
@@ -83,10 +84,4 @@ form button {
 
 form button:hover {
   background: rgba(125, 95, 134, 0.7);
-}
-
-@media (max-width: 1000px) {
-  .contact { width: 84dvw; }
-  form { width: 75.5dvw; }
-  .input-box .field { width: 67dvw; }
 }

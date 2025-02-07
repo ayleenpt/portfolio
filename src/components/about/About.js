@@ -27,7 +27,9 @@ function About() {
       <div className="artist-statement">
         <div className="statement-text">
           "i'm gonna put the artist statement here once I finish writing it :D For now, enjoy this latin.<br/><br/>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus neque sit amet ultricies pretium. Vivamus vestibulum elit mattis turpis sodales, convallis euismod leo congue. Nunc a elit non ligula ultrices ullamcorper viverra eget massa. Maecenas feugiat nunc vel mi dignissim varius. Nulla non arcu convallis, commodo nulla a, faucibus ex. Donec hendrerit nulla non vehicula cursus. Sed ut volutpat purus, nec condimentum augue. Sed non pharetra leo.
+          <br/><br />Aliquam sed fringilla nibh, eu mattis nisi. Integer scelerisque vel nunc non bibendum. Nulla tincidunt dolor vel diam condimentum, ac tincidunt ligula auctor. Donec luctus metus in sollicitudin congue. Etiam venenatis egestas tortor, ultrices ullamcorper lorem lobortis id. Mauris finibus felis id lectus ultrices tincidunt. Nam ut massa euismod, euismod ante sed, efficitur ante.
+          <br/><br />Praesent in turpis non est porttitor semper id iaculis ligula. Nunc aliquet, ante nec maximus eleifend, dui dui viverra elit, in facilisis nulla orci nec nisl. Quisque at lectus vel leo fringilla mattis in et eros. Vestibulum turpis dolor, iaculis eget feugiat non, imperdiet vel sem. Maecenas facilisis arcu mattis magna auctor, in dignissim ipsum tincidunt. Aliquam sit amet ex quis felis imperdiet convallis eget nec quam. Aliquam a tellus magna. Fusce eget fermentum leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus convallis rhoncus commodo. Aenean eget faucibus sem. Nullam erat odio, pharetra non euismod vel, hendrerit et ante. Donec semper tortor nulla, eu aliquet libero vestibulum ac. Pellentesque vehicula congue luctus. Sed a dictum turpis, in auctor sapien. "
         </div>
       </div>
 

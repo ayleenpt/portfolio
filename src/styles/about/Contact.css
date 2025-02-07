@@ -1,0 +1,12 @@
+.contact {
+  width: 30dvw;
+  height: 50dvw;
+  border: 2px solid red;
+  background-color: #FFFFFF;
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    width: 80dvw;
+  }
+}

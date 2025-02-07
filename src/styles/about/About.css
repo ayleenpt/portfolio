@@ -7,89 +7,6 @@
   align-items: center;
 }
 
-.bio-container {
-  margin-top: 90px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 4dvw;
-}
-
-.left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 30dvw;
-}
-
-.headshot {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background: rgb(164, 110, 183);
-  position: relative;
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.8),
-              inset -2px -2px 4px rgba(0, 0, 0, 0.8);
-}
-
-.headshot img {
-  width: 100%;
-  height: auto;
-  margin: 2.5%;
-  object-fit: contain;
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3),
-              0px -2px 3px rgba(0, 0, 0, 0.3),
-              2px 0px 3px rgba(0, 0, 0, 0.3),
-              -2px 0px 3px rgba(0, 0, 0, 0.3),
-              0px 1px 2px rgba(0, 0, 0, 0.3),
-              0px -1px 2px rgba(0, 0, 0, 0.3),
-              1px 0px 2px rgba(0, 0, 0, 0.3),
-              -1px 0px 2px rgba(0, 0, 0, 0.3);;
-}
-
-.location {
-  margin-top: 15px;
-  font-family: 'Arial', sans-serif;
-  font-size: 1em;
-  text-align: center;
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
-  width: 50dvw;
-  height: 100%;
-  justify-content: space-between;
-}
-
-.bio-text {
-  width: 92%;
-  font-family: 'Arial', sans-serif;
-  text-align: left;
-  margin-left: 15px;
-  margin-bottom: 35px;
-  font-size: 1.6dvw;
-}
-
-.bio-after, .artist-statement {
-  width: 84dvw;
-  margin-top: 20px;
-}
-
-.intro {
-  margin-top: 0px;
-  font-size: 2dvw;
-  margin-bottom: 15px;
-}
-
-.pronunciation {
-  font-size: 1.5dvw;
-  margin-top: 12px;
-}
-
 .quote {
   margin-top: 70px;
   margin-bottom: 50px;
@@ -123,6 +40,11 @@
   text-shadow: 0.5px 0.5px 0 rgb(47, 0, 64);
 }
 
+.artist-statement {
+  width: 84dvw;
+  margin-top: 20px;
+}
+
 .statement-text {
   font-family: 'Arial', sans-serif;
   font-weight: bold;
@@ -154,36 +76,26 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .bio-text, .artist-statement { color: rgb(250, 235, 255); }
   .quote-text { color: rgb(235, 181, 255); }
   .credit { color: rgb(156, 85, 182); }
-  .location { color: rgba(164, 110, 183, 0.7); }
+  .artist-statement { color: rgb(250, 235, 255); }
 }
 
 @media (prefers-color-scheme: light) {
-  .bio-text, .artist-statement { color: rgb(60, 16, 77); }
   .quote-text { color: rgb(122, 39, 152); }
   .credit { color: rgb(164, 110, 183); }
-  .location { color: rgba(128, 63, 151, 0.7); }
+  .artist-statement { color: rgb(60, 16, 77); }
 }
 
 @media (max-width: 1000px) {
-  .right { justify-content: center; }
-  .bio-text, .statement-text { width: 95%; margin: 0px; font-size: 2dvw; }
-  .intro { font-size: 3dvw; }
-  .pronunciation { font-size: 2.5dvw; }
   .resume-contact { flex-direction: column-reverse; }
   .resume { width: 84dvw; }
+  .statement-text { width: 95%; margin: 0px; font-size: 2dvw; }
 }
 
 @media (max-width: 750px) {
-  .bio-container { flex-direction: column-reverse; align-items: center;}
-  .left { width: 75dvw;}
-  .right { width: 80dvw; }
-  .bio-text, .statement-text { font-size: 1.2em; width: 100%; text-align: justify; }
-  .bio-after, .artist-statement { width: 74dvw; margin-left: 0px; }
   .quote { width: 74dvw; }
   .quote-text { width: 100%; font-size: 2.5em; }
-  .intro { font-size: 2em; }
-  .pronunciation { font-size: 1.5em; }
+  .artist-statement { width: 74dvw; margin-left: 0px; }
+  .statement-text { font-size: 1.2em; width: 100%; text-align: justify; }
 }

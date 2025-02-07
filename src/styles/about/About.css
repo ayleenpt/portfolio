@@ -96,7 +96,7 @@
   font-weight: bold;
 }
 
-.resume-button:hover {
+.resume-button:active {
   background: rgba(197, 158, 208, 0.5);
 }
 

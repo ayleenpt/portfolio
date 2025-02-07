@@ -43,7 +43,7 @@ function About() {
             View Resume
           </button>
 
-          <a className="download-resume-link" href={Resume} download="AyleenPiteoTarpy_Resume" target='_blank'>
+          <a className="download-resume-link" href={Resume} download="AyleenPiteoTarpy_Resume" target='_blank' rel='noreferrer'>
             <button className="resume-button download" type="button">Download Resume</button>
           </a>
         </div>

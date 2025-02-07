@@ -80,8 +80,9 @@ form button {
   font-weight: bold;
   margin-top: 25px;
   margin-bottom: 25px;
+  transition: 0.7s;
 }
 
-form button:hover {
+form button:active {
   background: rgba(125, 95, 134, 0.7);
 }

@@ -89,8 +89,8 @@ form button:active {
 
 @media (prefers-color-scheme: light) {
   form button {
-    background: rgba(45, 0, 58, 0.3);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), -0.5px -0.5px 0.3px rgba(246, 220, 255, 0.5), -2px -2px 0 rgba(50, 9, 70, 0.45);
+    background: rgba(73, 0, 93, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), -2px -2px 0 rgba(107, 55, 120, 0.7);
   }
   form button:active { background: rgba(45, 0, 58, 0.5); }
 }

@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import Background from "../page/Background";
 import Menu from '../page/Menu';
 import Name from '../home/Name';
-import Footer from '../page/Footer';
 import Headshot from '../../assets/about/Headshot.png';
+import Footer from '../page/Footer';
 import NameStyles from "../../styles/home/NameStyles.module.css";
 import '../../styles/about/About.css';
 
@@ -35,6 +35,11 @@ function About() {
   const location = 
     <div className="location">
       Seattle &bull; WA &bull; USA
+    </div>
+
+  const statementText =
+    <div className="statement-text">
+      "i'm gonna put the artist statement here once I finish writing it :D For now, enjoy this latin.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     </div>
 
   const [bioContents, setBioContents] = useState(window.innerWidth > 1000 ? [name, bio] : [name]);
@@ -78,6 +83,10 @@ function About() {
       <div className="quote">
         { quoteText }
         <div className="credit">Margaret Hamilton</div>
+      </div>
+
+      <div className="artist-statement">
+        { statementText }
       </div>
       <Footer />
     </div>

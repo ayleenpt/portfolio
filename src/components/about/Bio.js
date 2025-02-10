@@ -22,7 +22,7 @@ function Bio() {
 
   const bio = 
     <div className="bio-text">
-      I'm based in Seattle, Washington, and I'm a senior in Computer Science and Software Engineering at the University of Washington. I have professional experience with front and backend development, including a six month internship as a software developer on a database team at Chewy. I'll be graduating with my Bachelor of Science in June, 2025, and in July I plan to return to Chewy to begin my career as a full time engineer.
+      I'm based in Seattle, Washington, and I'm a senior in Computer Science and Software Engineering at the University of Washington. I have professional and independent experience with front and backend development, including a six month internship as a software developer on a database team at Chewy. I'll be graduating with my Bachelor of Science in June, 2025, and in July I plan to return to Chewy to begin my career as a full time engineer.
     </div>
 
   const location = 

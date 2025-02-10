@@ -22,12 +22,7 @@ function Bio() {
 
   const bio = 
     <div className="bio-text">
-      Growing up, my greatest talents were in mathematics and art. In college I discovered software development as a conjunction between the two, leveraging my creative ability and logical thinking skills to excel academically and professionally. I completed a six month internship as a backend engineer in 2024, developing my confidence with full scale development and preparing me for a career in tech. I enjoy creating art with my engineering skills through making fun, interactive web apps that demonstrate my technical and artistic abilities. I will graduate from the University of Washington in June 2025, and I look forward to beginning my career as a software engineer.
-    </div>
-
-  const quoteText =
-    <div className="quote-text">
-      "Looking back, we were the luckiest people in the world. There was no choice but to be pioneers; no time to be beginners."
+      I'm based in Seattle, Washington, and I'm a senior in Computer Science and Software Engineering at the University of Washington. I have professional experience with front and backend development, including a six month internship as a software developer on a database team at Chewy. I'll be graduating with my Bachelor of Science in June, 2025, and in July I plan to return to Chewy to begin my career as a full time engineer.
     </div>
 
   const location = 

@@ -12,18 +12,8 @@
 
 .footer-link {
   padding: 5px;
-  cursor: url('../../assets/cursors/Pointer.png'), auto;
   text-decoration: none;
   display: inline-block;
-  user-select: none;
-  pointer-events: all;
-}
-
-.footer-link:active,
-.footer-link:focus,
-.footer-link:hover {
-  outline: none;
-  cursor: url('../../assets/cursors/Pointer.png'), auto;
 }
 
 @media (prefers-color-scheme: dark) {

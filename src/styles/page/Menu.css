@@ -66,7 +66,6 @@
   font-family: 'Arial', sans-serif;
   font-size: 0;
   font-weight: bold;
-  color: rgb(239, 195, 255);
   text-align: center;
   transition: font-size 0.4s ease;
 }
@@ -96,13 +95,11 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .menu-line {
-    background-color: rgb(188, 144, 204);
-  }  
+  .label { color: rgb(239, 195, 255); }
+  .menu-line { background-color: rgb(188, 144, 204); }  
 }
 
 @media (prefers-color-scheme: light) {
-  .menu-line {
-    background-color: rgb(88, 42, 105);
-  } 
+  .label { color: rgb(88, 42, 105); }
+  .menu-line { background-color: rgb(88, 42, 105); } 
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.835f6327.css",
-    "main.js": "/portfolio/static/js/main.7d3e5788.js",
+    "main.css": "/portfolio/static/css/main.9b4afdaa.css",
+    "main.js": "/portfolio/static/js/main.e5eb5a14.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/Homescreen.gif": "/portfolio/static/media/Homescreen.60615488a335b2e7f258.gif",
     "static/media/Homescreen.png": "/portfolio/static/media/Homescreen.71c53ad14a5288e1a0bb.png",
@@ -23,12 +23,12 @@
     "static/media/AyleenPiteoTarpy_Resume.pdf": "/portfolio/static/media/AyleenPiteoTarpy_Resume.4a0603487d821d423327.pdf",
     "static/media/Bubble.png": "/portfolio/static/media/Bubble.2365f44e6ef9d87f2b03.png",
     "index.html": "/portfolio/index.html",
-    "main.835f6327.css.map": "/portfolio/static/css/main.835f6327.css.map",
-    "main.7d3e5788.js.map": "/portfolio/static/js/main.7d3e5788.js.map",
+    "main.9b4afdaa.css.map": "/portfolio/static/css/main.9b4afdaa.css.map",
+    "main.e5eb5a14.js.map": "/portfolio/static/js/main.e5eb5a14.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.835f6327.css",
-    "static/js/main.7d3e5788.js"
+    "static/css/main.9b4afdaa.css",
+    "static/js/main.e5eb5a14.js"
   ]
 }

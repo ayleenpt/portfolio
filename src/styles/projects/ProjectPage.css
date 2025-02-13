@@ -84,9 +84,9 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .project-title, .project-tools { color: rgb(122, 39, 152); }
+  .project-title, .project-tools { color: rgb(95, 40, 115); }
   .description, .visit-project { color: rgb(60, 16, 77); }
-  .date, .created-with { color: rgba(128, 63, 151, 0.7); }
+  .date, .created-with { color: rgb(136, 86, 154); }
   .visit-project { background-color: rgba(255,255,255,0.2); }
   .visit-project:hover { background-color: rgba(255,255,255,0.1); }
 }

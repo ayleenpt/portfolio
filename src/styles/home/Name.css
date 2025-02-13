@@ -102,19 +102,11 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .intro {
-   color: rgb(235, 181, 255);
-  }
-  .pronunciation {
-    color: rgba(164, 110, 183, 0.7);
-  }
+  .intro { color: rgb(235, 181, 255); }
+  .pronunciation { color: rgba(164, 110, 183, 0.7); }
 }
 
  @media (prefers-color-scheme: light) {
-  .intro {
-    color: rgb(122, 39, 152);
-  }
-  .pronunciation {
-    color: rgba(128, 63, 151, 0.7);
-  }
+  .intro { color: rgb(95, 40, 115); }
+  .pronunciation { color: rgb(136, 86, 154); }
 }

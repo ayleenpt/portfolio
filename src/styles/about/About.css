@@ -17,21 +17,7 @@
 }
 
 .quote-text {
-  color: rgb(235, 181, 255);
   font-size: 2.5em;
-  text-shadow: 0 0.5px 0 rgb(75, 46, 83),
-               0 1px 0 rgb(75, 46, 83),
-               0 2px 0 rgb(75, 46, 83),
-               0 3px 0 rgb(75, 46, 83),
-               0 4px 0 rgb(75, 46, 83),
-               0 5px 0 rgb(75, 46, 83),
-               0 6px 0 rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
 }
 
 .credit {
@@ -107,17 +93,48 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .credit { color: rgb(156, 85, 182); }
   .artist-statement { color: rgb(250, 235, 255); }
+  .credit { color: rgb(184, 117, 209); }
+  .quote-text {
+    color: rgb(236, 193, 251);
+    text-shadow: 0 0.5px 0 rgb(125, 90, 135),
+                 0 1px 0 rgb(120, 85, 130),
+                 0 2px 0 rgb(115, 80, 125),
+                 0 3px 0 rgb(110, 75, 120),
+                 0 4px 0 rgb(105, 70, 115),
+                 0 5px 0 rgb(100, 65, 110),
+                 0 6px 0 rgb(0, 0, 0),
+                 0 0 5px rgb(0, 0, 0),
+                 0 1px 3px rgb(0, 0, 0),
+                 0 3px 5px rgb(0, 0, 0),
+                 0 5px 10px rgb(0, 0, 0),
+                 0 10px 10px rgb(0, 0, 0),
+                 0 20px 20px rgb(0, 0, 0);
+  }
 }
 
 @media (prefers-color-scheme: light) {
-  .artist-statement, .credit { color: rgb(60, 16, 77); }
+  .artist-statement { color: rgb(60, 16, 77); }
+  .credit { color: rgb(95, 40, 115); }
   .resume-button {
     background: rgba(45, 0, 58, 0.3);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), -2px -2px 0 rgba(85, 43, 96, 0.7);
   }
   .resume-button:active { background: rgba(45, 0, 58, 0.5); }
+  .quote-text {
+    color: rgb(241, 222, 248);
+    text-shadow: 0 0.5px 0 rgb(150, 100, 160),
+                 0 1px 0 rgb(145, 95, 155),
+                 0 2px 0 rgb(135, 90, 145),
+                 0 3px 0 rgb(130, 85, 140),
+                 0 4px 0 rgb(125, 80, 135),
+                 0 5px 0 rgb(120, 75, 130),
+                 0 6px 0 rgba(0,0,0,.1),
+                 0px -0.5px 0 rgba(125, 80, 135, 0.5),
+                 -0.5px 0px 0 rgba(125, 80, 135, 0.5),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+  }
 }
 
 @media (max-width: 750px) {

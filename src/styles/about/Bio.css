@@ -76,7 +76,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .location { color: rgba(128, 63, 151, 0.7); }
+  .location { color: rgb(136, 86, 154); }
   .bio-text { color: rgb(60, 16, 77); }
   .headshot { background: rgb(122, 81, 137); }
 }

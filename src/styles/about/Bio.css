@@ -57,22 +57,10 @@
   text-align: center;
 }
 
-.intro {
-  margin-top: 0px;
-  font-size: 2dvw;
-  margin-bottom: 15px;
-}
-
-.pronunciation {
-  font-size: 1.5dvw;
-  margin-top: 12px;
-}
-
 .bio-text {
   width: 92%;
   font-family: 'Arial', sans-serif;
   text-align: left;
-  margin-left: 15px;
   font-size: 1.6dvw;
 }
 
@@ -95,17 +83,13 @@
 
 @media (max-width: 1000px) {
   .right { justify-content: center; }
-  .intro { font-size: 3dvw; }
-  .pronunciation { font-size: 2.5dvw; }
-  .bio-text { width: 95%; margin: 0px; font-size: 2dvw; }
+  .bio-text { width: 95%; margin-top: 50px; font-size: 2dvw; }
 }
 
 @media (max-width: 750px) {
   .bio-container { flex-direction: column-reverse; align-items: center;}
   .left { width: 75dvw;}
   .right { width: 75dvw; }
-  .intro { font-size: 2em; }
-  .pronunciation { font-size: 1.5em; }
   .bio-text { margin-top: 50px; font-size: 1.2em; width: 100%; text-align: justify; }
   .bio-after { width: 74dvw; margin-left: 0px; }
 }

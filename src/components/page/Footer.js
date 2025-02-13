@@ -1,8 +1,8 @@
 import '../../styles/page/Footer.css';
 
-function Footer({ customStyle }) {
+function Footer() {
   return (
-    <div className="footer" style={customStyle}>
+    <div className="footer">
       <a
         className="footer-link"
         href="https://www.linkedin.com/in/ayleenpt/"

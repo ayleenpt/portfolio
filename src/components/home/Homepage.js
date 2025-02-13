@@ -13,23 +13,13 @@ function Homepage() {
     <div className="homepage">
       <Background />
       <Menu key={location.pathname} className="menu" />
-      <Name
-        nameClass={NameStyles.homeAlign}
-        letterClass={NameStyles.homeLetter}
-      />
-      <Footer
-        customStyle={{
-          position: 'absolute',
-          display: 'flex',
-          flexDirection: 'row',
-          justifyContent: 'center',
-          alignItems: 'center',
-          padding: '20px 0',
-          bottom: '30px',
-          width: '100%',
-          fontSize: '1em',
-        }}
-      />
+      <div className="name-wrapper">
+        <Name
+          nameClass={NameStyles.homeAlign}
+          letterClass={NameStyles.homeLetter}
+        />
+      </div>
+      <Footer />
     </div>
   );
 }

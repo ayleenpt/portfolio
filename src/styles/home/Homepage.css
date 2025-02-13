@@ -6,5 +6,14 @@
   flex-direction: column;
   height: 100dvh;
   width: 100dvw;
-  overflow: hidden;
+  overflow: none;
+}
+
+.name-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
 }

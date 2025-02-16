@@ -7,7 +7,7 @@ import Projects from './components/projects/Projects';
 import Aurora from './components/projects/Aurora';
 import IconMaker from './components/projects/IconMaker';
 import MaskiMinigames from './components/projects/MaskiMinigames';
-import NotesToSelf from './components/projects/NotesToSelf';
+import NotesToSelf from './components/projects/notestoself/NotesToSelf';
 import TicTacToe from './components/projects/TicTacToe';
 
 function App() {

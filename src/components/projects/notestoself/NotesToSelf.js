@@ -1,8 +1,8 @@
 import { useLocation } from "react-router-dom";
 import React from 'react';
 import PlayButton from './PlayButton';
+import ProgressBar from './ProgressBar';
 import ProjectPage from '../ProjectPage';
-import ProgressBar from '../../../assets/projects/notestoself/ProgressBar.png';
 import Homescreen from '../../../assets/projects/notestoself/Homescreen.png';
 import '../../../styles/projects/notestoself/NotesToSelf.css';
 
@@ -12,8 +12,7 @@ function bonusContent() {
       <div className="features-title">Features</div>
         <PlayButton />
         <div className="progress-bar">
-        <img src={ProgressBar} alt="progress bar"/>
-        <text>Dynamic progress bar</text>
+        <ProgressBar />
       </div>
     </div>
   );

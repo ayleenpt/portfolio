@@ -11,7 +11,7 @@
 }
 
 .project-title {
-  margin-top: 30px;
+  padding-top: 60px;
   width: 100dvw;
   height: auto;
   font-size: 5em;
@@ -141,7 +141,7 @@
 }
 
 @media (max-width: 600px) {
-  .project-title { font-size: 4em; margin-top: 60px; }
+  .project-title { font-size: 4em; padding-top: 70px; }
   .date { font-size: 1em; }
   .project-intro { align-items: center; flex-direction: column; }
   .project-image, .description, .project-details { width: 80dvw; }

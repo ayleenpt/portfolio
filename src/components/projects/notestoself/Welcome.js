@@ -1,0 +1,29 @@
+import Wood from '../../../assets/projects/notestoself/Wood.png';
+import WelcomeImg from '../../../assets/projects/notestoself/Welcome.png'
+import WelcomeOverlay from '../../../assets/projects/notestoself/WelcomeOverlay.png'
+import '../../../styles/projects/notestoself/Welcome.css';
+
+function Welcome() {
+  const handleHover = () => {
+    const welcomeActive = document.querySelector('.welcome-active');
+    welcomeActive.style.backgroundImage = `url(${WelcomeOverlay})`;
+  };
+
+  const handleLeave = () => {
+    const welcomeActive = document.querySelector('.welcome-active');
+    welcomeActive.style.backgroundImage = "";
+  };
+
+  return (
+    <div className="welcome-wrapper">
+      <div className="welcome image-wrapper">
+        <img src={Wood} alt="background"></img>
+        <img className="welcome-img" src={WelcomeImg} alt="welcome" />
+        <div className="welcome-active" onMouseEnter={handleHover} onMouseLeave={handleLeave} />
+      </div>
+      <text>Accessible handwritten elements</text>
+    </div>
+  );
+}
+
+export default Welcome;

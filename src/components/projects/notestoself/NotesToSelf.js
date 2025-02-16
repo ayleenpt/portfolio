@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import React from 'react';
+import Welcome from './Welcome';
 import PlayButton from './PlayButton';
 import ProgressBar from './ProgressBar';
 import ProjectPage from '../ProjectPage';
@@ -11,6 +12,7 @@ function bonusContent() {
     <div>
       <div className="features-title">Features</div>
       <div className="project-features" >
+          <Welcome />
           <PlayButton />
           <div className="progress-bar">
           <ProgressBar />

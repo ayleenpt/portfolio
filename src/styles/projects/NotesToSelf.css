@@ -1,10 +1,60 @@
 .project-features {
   display: flex;
-  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: 'Arial', sans-serif;
   font-size: 1.5em;
-  color: white;
   width: 84dvw;
+  gap: 10dvw;
+}
+
+.features-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.play-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 83dvw;
+  gap: 10dvw;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 37dvw;
+}
+
+.play-button img {
+  width: 100%;
+}
+
+text {
+  margin-top: 15px;
+}
+
+.progress-bar {
+  width: 80dvw;
+}
+
+.progress-bar img {
+  width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  .features-title { color: rgb(235, 181, 255); }
+  text { color: rgb(250, 235, 255); }
+}
+
+@media (prefers-color-scheme: light) {
+  .features-title { color: rgb(95, 40, 115); }
+  text { color: rgb(60, 16, 77); }
 }
 
 @media (max-width: 600px) {

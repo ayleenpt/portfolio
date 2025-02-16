@@ -1,15 +1,30 @@
 import { useLocation } from "react-router-dom";
 import React from 'react';
-import Homescreen from '../../assets/projects/notestoself/Homescreen.png'
+import Homescreen from '../../assets/projects/notestoself/Homescreen.png';
+import PlayButton from '../../assets/projects/notestoself/PlayButton.png';
+import PlayButtonActive from '../../assets/projects/notestoself/PlayButtonActive.png';
+import ProgressBar from '../../assets/projects/notestoself/ProgressBar.png';
 import ProjectPage from './ProjectPage';
 import '../../styles/projects/NotesToSelf.css';
 
 function bonusContent() {
   return(
-    <div
-      className="project-features"
-    >
-      gonna put more content here since notes to self isn't live anymore to visit.
+    <div className="project-features" >
+      <div className="features-title">Features</div>
+      <div className="play-buttons">
+        <div className="play-button">
+          <img src={PlayButton} alt="play button" />
+          <text>Custom play buttons</text>
+        </div>
+        <div className="play-button">
+          <img src={PlayButtonActive} alt="play button active" />
+          <text>Active play button state</text>
+        </div>
+      </div>
+      <div className="progress-bar">
+        <img src={ProgressBar} alt="progress bar"/>
+        <text>Dynamic progress bar</text>
+      </div>
     </div>
   );
 }

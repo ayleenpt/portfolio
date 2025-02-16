@@ -47,6 +47,11 @@
   height: auto;
 }
 
+img {
+  border-radius: 7px;
+  padding: 4px;
+}
+
 .description {
   width: 40dvw;
   text-align: left;
@@ -81,6 +86,7 @@
   .date, .created-with { color: rgba(164, 110, 183, 0.7); }
   .visit-project { background-color: rgba(255,255,255,0.1); }
   .visit-project:hover { background-color: rgba(255,255,255,0.2); }
+  img { background: rgb(164, 110, 183); }
 }
 
 @media (prefers-color-scheme: light) {
@@ -89,6 +95,7 @@
   .date, .created-with { color: rgb(136, 86, 154); }
   .visit-project { background-color: rgba(255,255,255,0.2); }
   .visit-project:hover { background-color: rgba(255,255,255,0.1); }
+  img { background: rgb(122, 81, 137); }
 }
 
 @media (max-width: 1225px) {

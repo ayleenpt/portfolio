@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.afc06046.css",
-    "main.js": "/portfolio/static/js/main.000c3ac9.js",
+    "main.css": "/portfolio/static/css/main.fc752a01.css",
+    "main.js": "/portfolio/static/js/main.46f0d4f4.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/Homescreen.gif": "/portfolio/static/media/Homescreen.60615488a335b2e7f258.gif",
     "static/media/Homescreen.png": "/portfolio/static/media/Homescreen.71c53ad14a5288e1a0bb.png",
@@ -22,17 +22,16 @@
     "static/media/E.png": "/portfolio/static/media/E.18773709be8b8b3678e4.png",
     "static/media/Y.png": "/portfolio/static/media/Y.16230a6c26372fdb2040.png",
     "static/media/L.png": "/portfolio/static/media/L.f5f9a0642af71a15872e.png",
-    "static/media/ProgressBar.png": "/portfolio/static/media/ProgressBar.4ab01dcd9a034454fd42.png",
     "static/media/AyleenPiteoTarpy_Resume.pdf": "/portfolio/static/media/AyleenPiteoTarpy_Resume.4a0603487d821d423327.pdf",
     "static/media/Bubble.png": "/portfolio/static/media/Bubble.2365f44e6ef9d87f2b03.png",
     "static/media/PlayButtonActiveBG.png": "/portfolio/static/media/PlayButtonActiveBG.0a62746e2a81fad9612c.png",
     "index.html": "/portfolio/index.html",
-    "main.afc06046.css.map": "/portfolio/static/css/main.afc06046.css.map",
-    "main.000c3ac9.js.map": "/portfolio/static/js/main.000c3ac9.js.map",
+    "main.fc752a01.css.map": "/portfolio/static/css/main.fc752a01.css.map",
+    "main.46f0d4f4.js.map": "/portfolio/static/js/main.46f0d4f4.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afc06046.css",
-    "static/js/main.000c3ac9.js"
+    "static/css/main.fc752a01.css",
+    "static/js/main.46f0d4f4.js"
   ]
 }

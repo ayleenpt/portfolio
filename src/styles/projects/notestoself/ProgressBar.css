@@ -46,3 +46,11 @@
   border: 8px solid #fff;
   box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
 }
+
+.custom-slider:hover {
+  cursor: url('../../../assets/cursors/Pointer.png'), auto;
+}
+
+@media (max-width: 600px) {
+  .progress-bar { margin-top: 20px; flex-direction: column-reverse; }
+}

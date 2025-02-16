@@ -7,12 +7,17 @@
   font-size: 1.5em;
   width: 84dvw;
   gap: 10dvw;
+  margin-bottom: 70px;
 }
 
 .features-title {
   font-size: 4em;
   font-weight: bold;
   margin: 50px;
+}
+
+.project-features text {
+  font-size: 3dvw;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,4 +33,5 @@
 @media (max-width: 600px) {
   .project-features { width: 80dvw; }
   .project-features text { width: 75dvw; }
+  .project-features text { font-size: 1em; }
 }

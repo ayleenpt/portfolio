@@ -1,0 +1,30 @@
+.project-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5em;
+  width: 84dvw;
+  gap: 10dvw;
+}
+
+.features-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+  .features-title { color: rgb(235, 181, 255); }
+  .project-features text { color: rgb(250, 235, 255); }
+}
+
+@media (prefers-color-scheme: light) {
+  .features-title { color: rgb(95, 40, 115); }
+  .project-features text { color: rgb(60, 16, 77); }
+}
+
+@media (max-width: 600px) {
+  .project-features { width: 80dvw; }
+  .project-features text { width: 75dvw; }
+}

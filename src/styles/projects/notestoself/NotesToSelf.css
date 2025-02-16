@@ -10,8 +10,9 @@
 }
 
 .features-title {
-  font-size: 2em;
+  font-size: 4em;
   font-weight: bold;
+  margin: 50px;
 }
 
 @media (prefers-color-scheme: dark) {

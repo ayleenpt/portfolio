@@ -8,11 +8,13 @@ import '../../../styles/projects/notestoself/NotesToSelf.css';
 
 function bonusContent() {
   return(
-    <div className="project-features" >
+    <div>
       <div className="features-title">Features</div>
-        <PlayButton />
-        <div className="progress-bar">
-        <ProgressBar />
+      <div className="project-features" >
+          <PlayButton />
+          <div className="progress-bar">
+          <ProgressBar />
+        </div>
       </div>
     </div>
   );

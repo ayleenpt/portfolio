@@ -12,7 +12,9 @@ function ProjectPage({ title, date, description, homescreen, projectTools, locat
       <div className="project-title">{title}</div>
       <div className="date">{date}</div>
       <div className="project-intro">
-        <img className="project-image" src={homescreen} alt="Project Homescreen" />
+        <div className="project-image">
+          <img src={homescreen} alt="Project Homescreen" />
+        </div>
         <div className="description">{description}</div>
         <div className="project-details">
           <div className="created-with">Created with</div>

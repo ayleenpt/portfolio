@@ -1,0 +1,46 @@
+.storefront-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80dvw;
+  gap: 4dvw;
+  z-index: 0;
+}
+
+.storefront {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 75dvw;
+  gap: 2dvw;
+  color: white;
+  text-align: left;
+  font-size: 1.5dvw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.thumbnail, .item-title, .item-description, .price {
+  width: 25%;
+  height: auto;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 2dvw;
+}
+
+.purchase-button {
+  aspect-ratio: 2.5 / 1;
+  width: 50%;
+  height: auto;
+  background: white;
+}

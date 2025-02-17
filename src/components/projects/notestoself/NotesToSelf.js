@@ -3,6 +3,7 @@ import React from 'react';
 import Welcome from './Welcome';
 import PlayButton from './PlayButton';
 import ProgressBar from './ProgressBar';
+import Storefront from './Storefront';
 import ProjectPage from '../ProjectPage';
 import Homescreen from '../../../assets/projects/notestoself/Homescreen.png';
 import '../../../styles/projects/notestoself/NotesToSelf.css';
@@ -12,11 +13,10 @@ function bonusContent() {
     <div>
       <div className="features-title">Features</div>
       <div className="project-features" >
-          <Welcome />
-          <PlayButton />
-          <div className="progress-bar">
-          <ProgressBar />
-        </div>
+        <Welcome />
+        <PlayButton />
+        <ProgressBar />
+        <Storefront />
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Thumbnail from '../../../assets/projects/notestoself/Thumbnail.png';
 import WideBG from '../../../assets/projects/notestoself/WideBG.png';
 import TallBG from '../../../assets/projects/notestoself/TallBG.png';
+import Styles from '../../../styles/projects/notestoself/NotesToSelfStyles.module.css';
 import '../../../styles/projects/notestoself/Storefront.css';
 
 function Storefront() {
@@ -27,7 +28,7 @@ function Storefront() {
   return (
     <div className="storefront-wrapper">
 
-      <div className="storefront image-wrapper">
+      <div className={`storefront ${Styles.rectangleImageWrapper}`}>
         <img src={background} alt="storefront" />
 
         <div className="storefront-content">

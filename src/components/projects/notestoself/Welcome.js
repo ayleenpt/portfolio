@@ -1,6 +1,7 @@
 import Background from '../../../assets/projects/notestoself/SquareBG.png';
 import WelcomeImg from '../../../assets/projects/notestoself/Welcome.png'
 import WelcomeOverlay from '../../../assets/projects/notestoself/WelcomeOverlay.png'
+import Styles from '../../../styles/projects/notestoself/NotesToSelfStyles.module.css';
 import '../../../styles/projects/notestoself/Welcome.css';
 
 function Welcome() {
@@ -16,7 +17,7 @@ function Welcome() {
 
   return (
     <div className="welcome-wrapper">
-      <div className="welcome image-wrapper">
+      <div className={`welcome ${Styles.squareImageWrapper}`}>
         <img src={Background} alt="background"></img>
         <img className="welcome-img" src={WelcomeImg} alt="welcome" />
         <div className="welcome-active" onMouseEnter={handleHover} onMouseLeave={handleLeave} />

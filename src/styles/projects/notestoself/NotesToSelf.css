@@ -12,7 +12,6 @@
 
 .features-title {
   font-size: 4em;
-  font-weight: bold;
   margin: 50px;
 }
 
@@ -21,45 +20,19 @@
   width: 40dvw;
 }
 
-.image-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  border-radius: 7px;
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.8),
-              inset -2px -2px 4px rgba(0, 0, 0, 0.8);
-}
-
-.image-wrapper img {
-  width: 95%;
-  height: auto;
-  margin: 2.5%;
-  object-fit: contain;
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3),
-              0px -2px 3px rgba(0, 0, 0, 0.3),
-              2px 0px 3px rgba(0, 0, 0, 0.3),
-              -2px 0px 3px rgba(0, 0, 0, 0.3),
-              0px 1px 2px rgba(0, 0, 0, 0.3),
-              0px -1px 2px rgba(0, 0, 0, 0.3),
-              1px 0px 2px rgba(0, 0, 0, 0.3),
-              -1px 0px 2px rgba(0, 0, 0, 0.3);
-}
-
 @media (prefers-color-scheme: dark) {
   .features-title { color: rgb(235, 181, 255); }
   .project-features text { color: rgb(250, 235, 255); }
-  .image-wrapper { background: rgb(164, 110, 183); }
 }
 
 @media (prefers-color-scheme: light) {
   .features-title { color: rgb(95, 40, 115); }
   .project-features text { color: rgb(60, 16, 77); }
-  .image-wrapper { background: rgb(122, 81, 137); }
 }
 
 @media (max-width: 600px) {
   .project-features { width: 80dvw; }
   .project-features text { width: 75dvw; }
   .project-features text { font-size: 1em; }
+  .features-title { font-size: 3em; }
 }

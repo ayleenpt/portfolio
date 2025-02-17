@@ -1,0 +1,42 @@
+.squareImageWrapper, .rectangleImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 7px;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.8),
+              inset -2px -2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.squareImageWrapper img, .rectangleImageWrapper img {
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3),
+              0px -2px 3px rgba(0, 0, 0, 0.3),
+              2px 0px 3px rgba(0, 0, 0, 0.3),
+              -2px 0px 3px rgba(0, 0, 0, 0.3),
+              0px 1px 2px rgba(0, 0, 0, 0.3),
+              0px -1px 2px rgba(0, 0, 0, 0.3),
+              1px 0px 2px rgba(0, 0, 0, 0.3),
+              -1px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.squareImageWrapper img { width: 95%; margin: 2.5%; }
+.rectangleImageWrapper img { width: 98%; margin: 1%; }
+
+@media (prefers-color-scheme: dark) {
+  .squareImageWrapper, .rectangleImageWrapper { background: rgb(164, 110, 183); }
+}
+
+@media (prefers-color-scheme: light) {
+  .squareImageWrapper, .rectangleImageWrapper { background: rgb(122, 81, 137); }
+}
+
+@media (max-width: 1000px) {
+  .squareImageWrapper img { width: 94%; margin: 3%; }
+  .rectangleImageWrapper img { width: 97%; margin: 1.5%; }
+}
+
+@media (max-width: 600px) {
+  .rectangleImageWrapper img { width: 95%; margin: 2.5%; }
+}

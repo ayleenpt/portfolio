@@ -1,6 +1,6 @@
 import React from 'react';
 import PlayButtonStatic from '../../../assets/projects/notestoself/PlayButton.png';
-import PlayButtonBG from '../../../assets/projects/notestoself/PlayButtonBG.png';
+import Background from '../../../assets/projects/notestoself/SquareBG.png';
 import PlayButtonActive from '../../../assets/projects/notestoself/PlayButtonActiveBG.png'
 import '../../../styles/projects/notestoself/PlayButton.css';
 
@@ -19,7 +19,7 @@ function PlayButton() {
     <div className="play-button-wrapper">
       <text>Custom play buttons with responsive active state.</text>
       <div className="play-button image-wrapper">
-        <img src={PlayButtonBG} alt="play button" />
+        <img src={Background} alt="play button" />
         <div className="play-button-active" />
         <img className="play-button-img" src={PlayButtonStatic} alt="play button" />
         <div className="play-button-active-area" onMouseEnter={handleHover} onMouseLeave={handleLeave} />

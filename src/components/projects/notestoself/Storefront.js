@@ -23,7 +23,7 @@ function Storefront() {
 
         <div className="price">
           $10
-          <div className="purchase-button" />
+          <div className="purchase-button">Add to cart</div>
         </div>
       </div>
       <div className="storefront-text">

@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5463035e.css",
-    "main.js": "/portfolio/static/js/main.422e058f.js",
+    "main.css": "/portfolio/static/css/main.4725e974.css",
+    "main.js": "/portfolio/static/js/main.b761bdb5.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/Homescreen.gif": "/portfolio/static/media/Homescreen.60615488a335b2e7f258.gif",
     "static/media/Welcome.png": "/portfolio/static/media/Welcome.f6edb680b2421ab6defa.png",
-    "static/media/Wood.png": "/portfolio/static/media/Wood.bff2ada297a3d795ab41.png",
     "static/media/Homescreen.png": "/portfolio/static/media/Homescreen.71c53ad14a5288e1a0bb.png",
     "static/media/WelcomeOverlay.png": "/portfolio/static/media/WelcomeOverlay.e465100bd3d384445cce.png",
     "static/media/Glass_Light.png": "/portfolio/static/media/Glass_Light.72bae122be191ca4535e.png",
     "static/media/Headshot.png": "/portfolio/static/media/Headshot.749b44032a48efc5fbd7.png",
+    "static/media/TallBG.png": "/portfolio/static/media/TallBG.ffe742a4300bb994d4fc.png",
     "static/media/Glass_Dark.png": "/portfolio/static/media/Glass_Dark.c9305ab7a89fad776a55.png",
+    "static/media/WideBG.png": "/portfolio/static/media/WideBG.6a3d316c284ffffcf584.png",
+    "static/media/Thumbnail.png": "/portfolio/static/media/Thumbnail.a552ed33d2a43ee66047.png",
     "static/media/Background_Dark.png": "/portfolio/static/media/Background_Dark.8fd79da3e3168006cb29.png",
-    "static/media/PlayButtonBG.png": "/portfolio/static/media/PlayButtonBG.d9ca57bdfe755cea4513.png",
+    "static/media/SquareBG.png": "/portfolio/static/media/SquareBG.d9ca57bdfe755cea4513.png",
     "static/media/Background_Light.png": "/portfolio/static/media/Background_Light.9dbf0b3f010e7d13115d.png",
     "static/media/thumbnail_aurora.png": "/portfolio/static/media/thumbnail_aurora.62f09ab18aa4e68b3608.png",
     "static/media/thumbnail_notes_to_self.png": "/portfolio/static/media/thumbnail_notes_to_self.19e6149553d456313a40.png",
     "static/media/thumbnail_tictactoe.png": "/portfolio/static/media/thumbnail_tictactoe.9f0000bbde36c81f7b83.png",
     "static/media/PlayButton.png": "/portfolio/static/media/PlayButton.df0522d538d669d87a5f.png",
+    "static/media/LongBG.png": "/portfolio/static/media/LongBG.3a9ae848715458db88e6.png",
     "static/media/thumbnail_maski_minigames.png": "/portfolio/static/media/thumbnail_maski_minigames.1e3f4490737a82263312.png",
     "static/media/N.png": "/portfolio/static/media/N.1308b8999b3d93426df8.png",
     "static/media/A.png": "/portfolio/static/media/A.4f8860419f71a54cfe60.png",
@@ -29,12 +32,12 @@
     "static/media/Bubble.png": "/portfolio/static/media/Bubble.2365f44e6ef9d87f2b03.png",
     "static/media/PlayButtonActiveBG.png": "/portfolio/static/media/PlayButtonActiveBG.0a62746e2a81fad9612c.png",
     "index.html": "/portfolio/index.html",
-    "main.5463035e.css.map": "/portfolio/static/css/main.5463035e.css.map",
-    "main.422e058f.js.map": "/portfolio/static/js/main.422e058f.js.map",
+    "main.4725e974.css.map": "/portfolio/static/css/main.4725e974.css.map",
+    "main.b761bdb5.js.map": "/portfolio/static/js/main.b761bdb5.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5463035e.css",
-    "static/js/main.422e058f.js"
+    "static/css/main.4725e974.css",
+    "static/js/main.b761bdb5.js"
   ]
 }

@@ -1,5 +1,4 @@
 .storefront-wrapper {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,6 +9,11 @@
 }
 
 .storefront {
+  position: relative;
+}
+
+.storefront-content {
+  position: absolute;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -54,7 +58,7 @@
 
 @media (max-width: 800px) {
   .storefront-wrapper { margin-top: 20px; flex-direction: column-reverse; }
-  .storefront { flex-direction: column; gap: 30px; }
+  .storefront-content { flex-direction: column; gap: 30px; width: 80%; }
   .thumbnail, .item-title, .item-description, .price { width: 100%; }
   .price { gap: 20px; }
   .purchase-button { width: 50%; }

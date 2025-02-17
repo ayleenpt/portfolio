@@ -1,4 +1,4 @@
-.progress-bar {
+.progress-bar-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,11 +7,16 @@
   gap: 2dvw;
 }
 
+.progress-bar {
+  position: relative;
+}
+
 .custom-slider {
+  position: absolute;
   -webkit-appearance: none;
   appearance: none;
   background: #e71c67;
-  width: 100%;
+  width: 95%;
   height: 6px;
   border-radius: 4px;
   cursor: pointer;

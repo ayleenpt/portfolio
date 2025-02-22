@@ -32,7 +32,7 @@ function Storefront() {
         <img src={background} alt="storefront" />
 
         <div className="storefront-content">
-          <div className="thumbnail">
+          <div className="storefront-thumbnail">
             <img src={ Thumbnail } alt="Notes to Self EP" />
           </div>
 

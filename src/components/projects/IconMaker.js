@@ -12,7 +12,7 @@ function IconMaker() {
       date="Jan 2025"
       description={description}
       homescreen={Homescreen}
-      projectTools="React, Javascript, HTML, CSS, GitHub Pages"
+      projectTools="React, Javascript, HTML, CSS, GitHub Pages, Procreate"
       location={location}
       visitProject="Make your own icon"
       projectLink="https://ayleenpt.github.io/icon_maker/"

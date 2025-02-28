@@ -75,6 +75,11 @@
   font-size: 1.5em;
 }
 
+.created-with {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
 .project-tools {
   text-align: left;
   font-size: min(2.3dvw, 1.3em);
@@ -123,7 +128,7 @@
   }
 }
 
-@media (min-width: 1161px) {
+@media (min-width: 1311px) {
   .project-details {
     position: absolute;
     bottom: 0;
@@ -133,10 +138,10 @@
   .visit-project { font-size: 1.3em; }
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1310px) {
   .project-intro { align-items: top; }
   .project-details { width: 100%; margin-top: 10px; margin-left: 8dvw; }
-  .description {font-size: 2.38dvw;}
+  .description {font-size: 2.2dvw;}
   .visit-project { font-size: 1.2em; }
 }
 
